@@ -28,7 +28,7 @@
 
   set par(justify: true)
   set text(font: serif-font, size: 11pt)
-  show raw: set text(font: mono-font, size: 10pt)
+  show raw: set text(font: mono-font, size: 11pt)
 
   set list(indent: 1em)
   set enum(indent: 1em)
@@ -42,7 +42,7 @@
 }
 
 
-#let problem-block(number: none, title: none, bm-title: none, body) = {
+#let problem-block(number: none, title: none, bm-title: none, level: 1, body) = {
   [
     #let bookmark-title = if bm-title == none {
       [Problem \##number: #title]
@@ -59,9 +59,24 @@
     #if number != none [#text(fill: main-color)[*#number* #h(4pt)]]
     #box(baseline: 7pt, fill: luma(50%), width: 2.5pt, height: 25pt)
     #h(4pt) *#title*
+    #h(1fr)
+    #if level == 1 {
+      box(baseline: 7pt, image(height: 24pt, "../figures/10.png"))
+    } else if level == 2 {
+      box(baseline: 7pt, image(height: 24pt, "../figures/20.png"))
+    } else if level == 3 {
+      box(baseline: 7pt, image(height: 24pt, "../figures/30.png"))
+    } else if level == 4 {
+      box(baseline: 7pt, image(height: 24pt, "../figures/40.png"))
+    } else {
+      box(baseline: 7pt, image(height: 24pt, "../figures/50.png"))
+    }
     #parbreak()
+    #v(1em)
   ]
 
-  body
+  block(width: 100%, outset: 10pt, radius: 3pt, stroke: luma(50%) + 0.75pt)[
+    #body
+  ]
   pagebreak(weak: true)
 }
