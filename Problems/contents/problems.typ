@@ -180,7 +180,7 @@ A cryptarithm is a numerical and logical puzzle consisting of a mathematical equ
 `THREE` and `NEUF` are multiples of $9$;\
 `TROIS` and `NINE` are multiples of $3$.
 
-_(Problem 18 from the quarterfinals of the 2003 mathematical and logical games)_
+_(Problem 18 from the quarterfinals of the 2003 Mathematical and Logical Games)_
 ]
 
 
@@ -858,12 +858,12 @@ _(Proposed by Le Coyote)_
 ]
 
 
-#problem-block(number: 65, title: [The numbers of the year 2014], level: 2)[
+#problem-block(number: 65, title: [Numbers of the year 2014], level: 2)[
 If we add the product of its four digits to the number $2014$: $2014 + 2 times 0 times 1 times 4$, we get $2014$.
 
 *Find the sum of the other positive integers that add up to $2014$ when you add the product of their digits.*
 
-_(Individual quarterfinals of the 28th Mathematical and Logic Games Championship)_
+_(Individual quarterfinals of the 28th Mathematical and Logical Games Championship)_
 ]
 
 
@@ -1168,7 +1168,7 @@ _(Proposed by Le Coyote)_
 ]
 
 
-#problem-block(number: 86, title: [The curious $2000$#super[th] term of a sequence], bm-title: [The curious 2000th term of a sequence], level: 2)[
+#problem-block(number: 86, title: [Curious $2000$#super[th] term of a sequence], bm-title: [Curious 2000th term of a sequence], level: 2)[
 We have a sequence whose first two terms are: $U_1 = 3\/2$ and $U_2 = 5\/3$.
 
 We calculate the next term in the series using the formula $display(U_n = 2003-6002/U_(n-1)+4000/(U_(n-1)U_(n-2)))$.
@@ -1181,7 +1181,7 @@ _(Proposed by Jodyl, member of Défi Turing, based on an article by Jean-Michel 
 ]
 
 
-#problem-block(number: 87, title: [The chaotic fate of role-players], level: 3)[
+#problem-block(number: 87, title: [Chaotic fate of role-players], level: 3)[
 One million players participate in a game that has $10$ levels. At the beginning, all players are at level $1$.
 
 At the end of each round of play, each player rolls a balanced twelve-sided die, numbered from $1$ to $12$. The player advances one level if they roll a number higher than their current level. Otherwise, they remain at the same level.
@@ -1365,7 +1365,7 @@ _(Problem 91 of Project Euler)_
 ]
 
 
-#problem-block(number: 99, title: [The lucky year], level: 2)[
+#problem-block(number: 99, title: [Lucky year], level: 2)[
 The terms $1$, $2$, $3$ and $4$ of a sequence are $13^0$, $13^1$, $13^2$ and $2014$, respectively. Each subsequent term in the sequence is always equal to the sum of the previous four terms.\
 The $5$th term of the sequence is therefore equal to $1 + 13 + 169 + 2014 = 2197$.
 
@@ -1377,7 +1377,7 @@ _(Problem 18 from the semifinals of the 2014 Mathematical and Logical Games)_
 
 #problem-block(number: 100, title: [Magic square], level: 3)[
 Complete the magic square below using only prime numbers between $2$ and $100$.
-#footnote[The sums of the three numbers in each row, each column, and both main diagonals are the same.]
+#footnote([The sums of the three numbers in each row, each column, and both main diagonals are the same.])
 
 #let b = table.cell(fill: aqua)[]
 
@@ -1407,7 +1407,7 @@ For example: $6171\/11 = 561 = 6^3 + 1^3 + 7^3 + 1^3$.
 
 *Give the sum of the numbers $n$ that have this property.*
 
-_(Inspired by problem 15 from the semifinals of the 2014 International Mathematical and Logic Games Championship)_
+_(Inspired by problem 15 from the semifinals of the 2014 International Mathematical and Logical Games Championship)_
 ]
 
 
@@ -1529,7 +1529,7 @@ _(Problem 100 of Project Euler)_
 ]
 
 
-#problem-block(number: 111, title: [The Baron's Number], level: 1)[
+#problem-block(number: 111, title: [Baron's Number], level: 1)[
 *What is the only number $n > 1$ such that*
 $ n = d_k^(d_k) + d_(k-1)^(d_(k-1)) + dots.c + d_2^(d_2) + d_1^(d_1) $
 
@@ -1659,7 +1659,7 @@ _(Proposed by Le Coyote)_
 ]
 
 
-#problem-block(number: 120, title: [The origin is in a triangle... or not], level: 3)[
+#problem-block(number: 120, title: [Origin is in a triangle... or not], level: 3)[
 Three distinct points are placed randomly on the Cartesian plane, with $-1000 <= x, y <= 1000$, such that a triangle is formed.\
 Consider the following triangles $A B C$ and $D E F$:
 $
@@ -1810,7 +1810,7 @@ _(Proposed by Le Coyote)_
 ]
 
 
-#problem-block(number: 128, title: [The pentacle], level: 2)[
+#problem-block(number: 128, title: [Pentacle], level: 2)[
 We want to fill the ten discs in the figure below with different integers between $1$ and $12$, so that the five rows of four numbers and the circle of five numbers have the same sum.
 
 #align(center)[
@@ -1848,5 +1848,1129 @@ The file *130-fichier.txt*#footnote([This text file _130-fichier.txt_ is also at
 *What is the height of the horizontal line that minimizes the sum of the distances to the points?* If there are several lines, give the average of the heights.
 
 _(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 131, title: [Sum of the first inverted integers], level: 1)[
+Let $S(n) = 1 + 2 + 3 + dots.c + n$ be the sum of the first $n$ non-zero integers.\
+Furthermore, let $I(n)$ be the sum of the first $n$ inverted integers.
+
+We then obtain, for example,\
+$S(14) = 1 + 2 + 3 + 4 + dots.c + 10 + 11 + 12 + 13 + 14$\
+and\
+$I(14) = 1 + 2 + 3 + 4 + dots.c + 01 + 11 + 21 + 31 + 41$.
+
+It is easy to see that $X=10$ is the first value for which $S(X) > I(X)$.
+
+*What will be the sum of the integers $X$ less than one million that have the property $S(X) > I(X)$?*
+
+_(Proposed by cspecial)_
+]
+
+
+#problem-block(number: 132, title: [Average of squares], level: 1)[
+The average of the squares of the integers from $1$ to $5$ is equal to $(1+4+9+16+25)\/5 = 11$.\
+The average of the squares of the integers from $1$ to $77$ is equal to $2015$.
+
+*How many positive integers strictly less than one billion are equal to the average of the squares of consecutive integers from $1$ to a certain number?*
+
+Note: the average of a single number is equal to that number.
+
+_(1/4 of the 2014-15 FFJM individual final)_
+]
+
+
+#problem-block(number: 133, title: [Guru and his followers], level: 4)[
+A guru has locked his $33$ followers in separate rooms in his huge mansion. The followers cannot communicate with each other.\
+The guru lives in a luxurious room in his mansion, where the "lamp of truth" is located. He proposes an initiation game to his followers. Every day, he will bring a follower, chosen at random in secret, to his room. There, the follower will be free to decide whether or not to turn on the lamp. The guru will never touch the lamp, which is off at the start of the game.\
+The stakes are as follows: if a follower, upon entering the guru's room, claims that all the followers have already been to this room at least once and is correct, the $33$ followers will be freed. However, if they are wrong, all the followers will begin their journey to Venus...\
+Before the game begins and the followers are isolated in their rooms, they have a moment to develop a strategy. Their only means of communication will be the "lamp of truth".
+
+The file *tirage.txt*#footnote([This text file _tirage.txt_ is also attached to this PDF.]) contains the results of $10 thin 000$ random draws by the guru (numbers from $1$ to $33$, indicating the follower's room). Line $1$ contains the number of the follower called on the first day, line $2$ the follower on the second day, and so on. This file obviously cannot be used to define a strategy, since the followers do not have access to it.
+
+*If they discover the right strategy, after how many days will the followers be freed?*
+
+_(This puzzle is known on the web as "The (100) prisoners and the light bulb")_
+]
+
+
+#problem-block(number: 134, title: [2015 is (once again) a palindrome], level: 3)[
+The year $2015$ has an interesting property: $2015 = 84^2 - 71^2 = 48^2 - 17^2$.\
+We will have to wait until $3024$ to see the same property again: $3024 = 75^2 - 51^2 = 57^2 - 15^2$.\
+For the differences between the two squares, only two-digit numbers that are neither multiples of $11$ nor multiples of $10$ will be used.
+
+*Give the sum of the years in the $6$#super[th] millennium that have this property.*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 135, title: [Partition of an integer], level: 4)[
+There are exactly six ways to write $5$ as a sum of strictly positive integers:
+$
+&4 + 1\
+&3 + 2\
+&3 + 1 + 1\
+&2 + 2 + 1\
+&2 + 1 + 1 + 1\
+&1 + 1 + 1 + 1 + 1
+$
+
+*How many different ways can $200$ be written as the sum of at least two strictly positive integers?*
+
+_(Problem 76 of Project Euler)_
+]
+
+
+#problem-block(number: 136, title: [An orderly multiplication], level: 2)[
+$A$, $B$, $C$, $D$ and $E$ are five different numbers. There is only one multiplication
+$ A B times C = D E $
+where $A < B < C < D < E$.
+
+*Give the number $A B C D E$ as the answer.*
+
+(Problem 1 from "Le chat à six pattes et autres casse-tête" by Louis Thépault)
+]
+
+
+#problem-block(number: 137, title: [Go first!], level: 4)[
+To play the game, Sisyphus drew $106$ squares on the ground, numbered from $0$ to $105$, and he has a token and a six-sided die (balanced).\
+Sisyphus starts the game by placing the token on square $0$. He then rolls the die a series of times. When the die shows the value $k$, he moves the token forward $k$ squares and:
+- if he reaches or exceeds square number $100$, Sisyphus wins;
+- if he lands on a square whose number is a prime number less than $100$, Sisyphus loses;
+- in other cases, Sisyphus rolls the die again and continues the game.
+
+*What is the probability that Sisyphus will win?*
+
+Enter the last ten digits of the numerator of the irreducible fraction as your answer.
+
+(Problem inspired by Problem III of the 2013 Concours Général des Lycées. Proposed by David Draï)
+]
+
+
+#problem-block(number: 138, title: [a, e, i, o, u, a, e, i, ...], level: 3)[
+The file *dico.txt*#footnote([This text file _dico.txt_ is also attached to this PDF.]) contains $323 thin 471$ French words without accents. We would like to know how many of them contain vowels (except y) in the cyclic order a, e, i, o, u.
+Here are some of these words:
+#align(center)[a, je, cage, coupable, hibou, émir, ...]
+
+However, these words do not satisfy the constraint:
+#align(center)[engagé, capable, embout, émirat, lynx, ...]
+
+*How many words in the dico.txt dictionary satisfy this constraint?*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 139, title: [How many darts?], level: 1)[
+We throw darts at a grid of $100$ squares by $100$. Each square has the same probability of being hit.
+
+*How many darts must be thrown for the probability of hitting the same square multiple times to be greater than $1\/2$?*
+
+_(Inspired by the birthday paradox)_
+]
+
+
+#problem-block(number: 140, title: [Snake], level: 4)[
+The points on a $100 times 100$ grid are numbered from $1$ to $10 thin 000$ following the path below.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 160pt, "../figures/140.gif")
+  #v(0.5em)
+]
+
+*What is the sum of the numbers on the diagonal line from the top left corner to the bottom right corner of the grid?*
+
+_(Inspired by the March 4th problem from the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 141, title: [How many $6$s are there?], bm-title: [How many 6s are there?], level: 2)[
+Multiply the digits of a number greater than $9$. If the result is a single-digit number, it is called the image of the original number. If it has more than one digit, repeat the operation until you get a single-digit number.
+
+For example: $666 -> 216 -> 12 -> 2$.
+
+*How many numbers between $10$ and $10$ million have $6$ as their image?*
+
+_(Problem of July 30th from the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 142, title: [Irregular numbers], level: 2)[
+Positive integers that are not divisible by any of their digits are called "irregular" numbers.
+
+For example, $203$, $547$ and $998$ are irregular.
+
+*How many irregular numbers are there below 1 million?*
+
+_(Problem of July 17th from the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 143, title: [Half of $5$], bm-title: [Half of 5], level: 1)[
+On a board, we write all the positive integers $1$, $2$, $3$, ..., $N$, where $N$ is a positive integer with $7$ digits.
+
+*Find the largest possible value of $N$ for which exactly $N\/2$ numbers on the board contain at least one digit $5$.*
+
+_(Problem of April 30th from the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 144, title: [$7$ as the only king], bm-title: [7 as the only king], level: 1)[
+*How many six-digit numbers are there in which $7$ appears only once and is the highest digit?*
+
+For example: $253753$, $111172$, $744252$, etc.
+
+_(Problem of June 22nd from the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 145, title: [Omnidextrous prime squares], level: 3)[
+A *prime* square of order $3$ is a $3 times 3$ square grid in which each cell contains a number between $0$ and $9$, these numbers forming prime numbers when read by columns or rows. No two columns or rows can be identical.\
+An *ambidextrous* prime square is a prime square that always contains prime numbers, whether the rows are read from right to left or left to right.\
+An *omnidextrous* prime square is an ambidextrous prime square in which the columns and diagonals contain prime numbers whether read from top to bottom or bottom to top. There is another constraint on these prime numbers: they cannot start with $0$.\
+Here is an example of an omnidextrous prime square of order $3$:
+
+#align(center)[
+  #v(0.5em)
+  #table(
+    align: center,
+    columns: (18pt,)*3,
+    stroke: black + 0.75pt,
+    [1], [1], [3],
+    [1], [5], [1],
+    [3], [1], [1]
+  )
+  #v(0.5em)
+]
+
+*How many omnidextrous prime squares of order $3$ are there?*
+
+_(Problem 37 from the book "Aventures stratégiques et logiques" by Dennis E. Shasha)_
+]
+
+
+#problem-block(number: 146, title: [Sales representative's invitations], level: 1)[
+Thomas is a sales representative. He wants to invite one of his $10$ clients to a restaurant each week, but he wants to do so based on how much he likes them.\
+He creates $10$ cards, writes a score from $1$ to $10$ on each one, and ranks them in ascending order. He always invites the client corresponding to the top card. After dinner, he places this card behind a number of cards corresponding to its score.
+
+Ranking for the first five weeks:
+
+Week $1$ $[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]$\
+Week $2$ $[2, 1, 3, 4, 5, 6, 7, 8, 9, 10]$\
+Week $3$ $[1, 3, 2, 4, 5, 6, 7, 8, 9, 10]$\
+Week $4$ $[3, 1, 2, 4, 5, 6, 7, 8, 9, 10]$\
+Week $5$ $[1, 2, 4, 3, 5, 6, 7, 8, 9, 10]$
+
+*In which week will the customer with a score of $10$ be in $4$th place in the ranking for the first time?*
+
+_(Inspired by "Les invitations du représentant", Jeux & Stratégie 22, p.54)_
+]
+
+
+#problem-block(number: 147, title: [Culinary cryptarithm], level: 2)[
+A cryptarithm is a numerical and logical puzzle consisting of a mathematical equation in which letters represent numbers to be found. No number begins with a $0$.
+
+*Solve the cryptarithm below, knowing that `FOC` is a square:*
+
+#align(center)[`CUIRE + EN + POELE = FRIRE`]
+
+Give the sum obtained (`FRIRE`) as your answer.
+
+_(Jouer Jeux Mathématiques magazine)_
+]
+
+
+#problem-block(number: 148, title: [Finish it!], level: 2)[
+All the numbers in this multiplication, except for six, have been replaced by dots.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 140pt, "../figures/148.gif")
+  #v(0.5em)
+]
+
+*What is the number in the last line (the one that starts with $6$)?*
+
+_(Jeux & Stratégie 6, December 1980, p.55)_
+]
+
+
+#problem-block(number: 149, title: [Magic division], level: 1)[
+When dividing $100 thin 000 thin 000$ by an integer, it can happen that the divisor, the quotient, and the remainder are composed of the same digits. More precisely, all the digits of the divisor appear at least once in the quotient and in the remainder. Furthermore, no other digits appear.
+
+Here is one possibility: $100 thin 000 thin 000 \/ 91 thin 810 = 1089$, remainder $18 thin 910$. The $1$, $8$, $9$ and $0$ appear in all three numbers.
+
+*What is the other possibility?* Give the divisor as your answer.
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 150, title: [No black squares], level: 4)[
+The numbers $4$, $7$, $19$ and $37$ have a remarkable property:
+- Every natural number can be written as the sum of at most $4$ integer squares (Lagrange's theorem)
+- Every natural number can be written as the sum of at most $7$ integer cubes (with the exception of $17$ integers, all less than $455$, which require $8$ or $9$...)
+- Any natural number can be written as the sum of at most $19$ fourth powers
+- Any natural number can be written as the sum of at most $37$ fifth powers.
+
+Fill in the grid below:
+
+#let y = table.cell(fill: rgb("#ffff00"))[]
+
+#align(center)[
+  #v(0.5em)
+  #table(
+    align: center,
+    columns: (18pt,)*7,
+    stroke: black + 0.75pt,
+    [], [a], [b], [c], [d], [e], [f],
+    [A], y, [], [], [], [], [],
+    [B], [], y, [], [], [], [],
+    [C], [], [], y, [], [], [],
+    [D], [], [], [], y, [], [],
+    [E], [], [], [], [], y, [],
+    [F], [], [], [], [], [], y
+  )
+  #v(0.5em)
+]
+
+#align(center)[
+  #set text(size: 9pt)
+  #v(0.5em)
+  #grid(
+    align: left,
+    columns: (1fr,)*2,
+    column-gutter: 10pt,
+    row-gutter: 8pt,
+    [*Horizontally*],
+    [*Vertically*],
+    [A. Fifth power],
+    [a. Divisible by $19$],
+    [B. Fifth power],
+    [b. Divisible by $37$ and divisible by the cube of a prime number],
+    [C. Fifth power],
+    [c. Divisible by $7$],
+    [D. Fifth power],
+    [d. Prime number],
+    [E. Fifth power],
+    [e. Divisible by $4$ and divisible by the cube of a prime number],
+    [F. Divisible by all integers strictly less than its fifth root and has strictly more divisors than all integers less than it.],
+    [f. Divisible by $19$]
+  )
+  #v(0.5em)
+]
+
+*Write down the number formed by the digits in the yellow diagonal as the answer.*
+
+_(Mathematics and Logical Games Championship. Improved and proposed by David Draï.)_
+]
+
+
+#problem-block(number: 151, title: [Happy new year 2016!], level: 1)[
+$2016$ is the area of a right triangle, whose three sides form a Pythagorean triple.
+
+*What are the lengths of sides $a$, $b$ and $c$?* Give your answer as the number obtained by juxtaposing $a$, $b$ and $c$, with $a < b < c$.
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 152, title: [Sum of the digits of its cube], level: 2)[
+*What is the largest integer equal to the sum of the digits of its cube?*
+
+_(Euromath Regional Cup)_
+]
+
+
+#problem-block(number: 153, title: [DIX#super[2] + UN#super[2] = CENTUN], bm-title: [DIX² + UN² = CENTUN], level: 3)[
+A cryptarithm is a numerical and logical puzzle consisting of a mathematical equation in which letters represent numbers to be found.
+
+*Solve the cryptarithm below (give the sum obtained as the answer):*
+
+#align(center)[`DIX² + UN² = CENTUN`]
+
+_("Les maths au carré", by Marie-Pierre Falissard, problem 2)_
+]
+
+
+#problem-block(number: 154, title: [Stable cube], level: 2)[
+When you cube $10$, you get $1 thin 000$. The cube of $10$ can only be written using $0$s and $1$s, which are the digits of $10$. The same applies to $100$ and all powers of $10$.
+
+*What is the smallest integer $n>1$ that is not a power of $10$ and such that $n^3$ can be written using the same digits as $n$?*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 155, title: [Prime partitions of a rectangle], level: 4)[
+$A B C D$ is a rectangle such that $A B >= A D$. $A B$, $A D$, $A E$ and $A F$ are integer lengths.
+- A configuration is said to be prime when the $8$ areas $S_i$ ($i = 1, 2, dots, 8$) are integers and prime to each other (globally and not pairwise).
+- Two prime configurations $G$ and $G'$ are said to be equivalent if: ${S'_1, S'_2, S'_3, S'_4, S'_5, S'_6, S'_7, S'_8} = {S_1, S_2, S_3, S_4, S_5, S_6, S_7, S_8}$ (we are referring to sets).
+- Among a set of equivalent prime configurations, we agree to call the main configuration the one for which AB is minimal (which amounts to choosing the one with the smallest perimeter or the one closest to a square...).
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 240pt, "../figures/rectangle.jpg")
+  #v(0.5em)
+]
+
+*Examples*
++ $(A B, A D, A E, A F) = (10, 6, 5, 3)$ is the smallest principal configuration, with:\ $(S_1, S_2, S_3, S_4, S_5, S_6, S_7, S_8) = (10, 3, 3, 16, 12, 12, 2, 2)$, and a total area of $60$.
++ $(21, 16, 14, 8)$ is a main configuration that gives $(70, 8, 21, 99, 48, 63, 6, 21)$, and a total area of $336$.
+
+Let $N$ be the number of principal configurations when $A B <= 100$. These $N$ configurations give only $(N - k)$ distinct total areas, because $k$ of them are obtained twice. Let $P$ be the sum of these $k$ areas.
+
+*What is the value of $N times P$?*
+
+_(Proposed by Le David Draï)_
+]
+
+
+#problem-block(number: 156, title: [Final power], level: 1)[
+It is said that $7$ is a final power for $3$, because $3^7 = 2187$ (the last digit is $7$).
+
+*What is the smallest final power for $18$? In other words, what is the smallest integer $n$ such that the decimal representation of $18^n$ ends with that of $n$?*
+
+_(Mathematics and Logical Games Championship)_
+]
+
+
+#problem-block(number: 157, title: [Triangles with integer area], level: 4)[
+Let $a$, $b$, $c$ and $n$ be four integers such that $b < a <= n$ and $c <= n$.\
+In a triangle $A B C$ ($A B C$ is oriented in the positive trigonometric direction), let $D$ be a point on side $[B C]$ such that: $B D = a$, $D C = b$ and $D A = c$.\
+We know that the radius of the circle circumscribing triangle $A B D$ is equal to the radius of the circle circumscribing triangle $A D C$.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 200pt, "../figures/triangles.jpg")
+  #v(0.5em)
+]
+
+*If $n = 200$, how many non-homothetic configurations exist such that the area of triangle $A B C$ is an integer?*
+
+_(Proposed by Le David Draï)_
+]
+
+
+#problem-block(number: 158, title: [Cube the digits], level: 2)[
+Let's add the cubes of the digits that make up the number $2016$. We get $2^3 + 0^3 + 1^3 + 6^3 = 225$. Let's repeat this process with the digits of the result. We get $141$, then successively $66$, $432$, $99$, $1458$, 702$$, $351$, $153$, $153$, ...
+
+*What is the sum of the years in the $3$rd millennium for which this process leads to the number $153$?*
+
+_(FFJM individual quarterfinals 2016)_
+]
+
+
+#problem-block(number: 159, title: [Prime coding], level: 2)[
+Here is a multiplication problem where the numbers are replaced by asterisks.
+
+#align(center)[
+```
+    * * *
+  x   * *
+  -------
+  * * * *
+* * * *
+---------
+* * * * *
+```
+]
+
+It turns out that each asterisk is a single-digit prime number, i.e., $2$, $3$, $5$ or $7$.
+
+*What is the result of the multiplication?*
+
+_(La Recherche magazine)_
+]
+
+
+#problem-block(number: 160, title: [Magic snail], level: 4)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 10pt,
+    [
+    Write a number from $1$ to $3$ in certain boxes of the grid so that:
+    - each number appears once, and only once, in each row and column;
+    - the first $1$ (given in the figure) is at the entrance;
+    - when you follow the snail to the center, the numbers you encounter are in the order $1$, $2$, $3$, $1$, $2$, $3$ ... $1$, $2$, $3$.
+
+    *If you number the squares of the snail as shown in the drawing, what is the sum of the $15$ products "square number $times$ square content"?*
+
+The $10$ empty squares will not be taken into account.
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 100pt, "../figures/limacon.jpg")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+_(Quarterfinals of the Mathematical and Logical Games Championship)_
+]
+
+
+#problem-block(number: 161, title: [Fortune teller], level: 3)[
+A fortune teller uses five white cards numbered from $2$ to $6$ and four red cards numbered from $3$ to $6$. She places all the cards on the table, alternating colors systematically. Each card must have a number that is divisible by (other than $1$) at least one of its two neighbors (at the ends, its neighbor).
+
+For example: $2bold(4)5bold(5)6bold(3)4bold(6)3$.
+
+*Following this rule, how many different numbers can be formed?*
+
+(FFJM, individual quarterfinals 2016, problem 12)
+]
+
+
+#problem-block(number: 162, title: [Palindrome], level: 1)[
+Multiply three consecutive strictly positive even numbers together. The result is a palindrome.
+
+*What is the smallest palindrome obtained in this way?*
+
+_(Proposed by Le Coyote. Inspired by a problem from the 30th Mathematical and Logical Games Championship)_
+]
+
+
+#problem-block(number: 163, title: [Prime-indexed sequence], level: 2)[
+A sequence is defined by this recurrence relation:
+$ P_(n+1) = P_(n-1) + P_(n-2), "with" P_0 = 3, P_1 = 0 "and" P_2 = 2. $
+
+The first $18$ terms of this sequence are: $3$, $0$, $2$, $3$, $2$, $5$, $5$, $7$, $10$, $12$, $17$, $22$, $29$, $39$, $51$, $68$, $90$, $119$.
+
+We note that: $P_2 = 2$, $P_3 = 3$, $P_5 = 5$, $P_7 = 7$, $P_11 = 22 = 2 times 11$, $P_13 = 39 = 3 times 13$, $P_17 = 119 = 7 times 17$.
+
+Now, $2$, $3$, $5$, $7$, $11$, $13$ and $17$ form the beginning of the sequence of prime numbers. The other terms are not multiples of their index.
+
+One might conjecture that if $P_n$ is a multiple of $n$, then $n$ is a prime number. However, this conjecture is false.
+
+*What is the smallest non-prime integer $n > 18$ such that $P_n$ is a multiple of $n$?*
+
+("Suite de Perrin". Proposed by Vincent Bernigole)
+]
+
+
+#problem-block(number: 164, title: [The ninth], level: 2)[
+By removing the $0$ from $405$, we get $45$, which is equal to $405\/9$.
+
+We are interested in strictly positive integers $n$, less than $10 thin 000 thin 000$, which, when their $0$(s) are removed, give $n\/9$.
+
+*What is the sum of the integers that have this property?*
+
+_(Proposed by Le Coyote. Inspired by a problem from the 30th Mathematical and Logical Games Championship)_
+]
+
+
+#problem-block(number: 165, title: [Words of the year], level: 3)[
+The file *dico.txt*#footnote([This text file _dico.txt_ is also attached to this PDF.]) contains $323 thin 471$ French words without accents. By assigning each letter its position in the alphabet (a $=1$, b $=2$, c $=3$, ..., z $=26$), then multiplying all the letters in a word together, we obtain a number.
+
+For example, "chaud"$ = 3 times 8 times 1 times 21 times 4 = 2016$.
+
+*If we apply this process to all the words in the dico.txt file, which year of the third millennium will occur most often?* Give your answer as the product of the year and the number of occurrences.
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 166, title: [$N$-ary numbers], bm-title: [N-ary numbers], level: 2)[
+An $n$-ary number is an integer whose digits add up to $n$. Example: $5$, $32$, $11111$ and $20021$ are $5$-ary numbers.
+
+*If we consider integers less than or equal to $1 thin 000 thin 000$, what is the most common value of $n$?* Give the number of times this value of $n$ appears as your answer.
+
+_(Proposed by Le Coyote. Inspired by a problem from the 30th Mathematical and Logical Games Championship)_
+]
+
+
+#problem-block(number: 167, title: [Between $2$ and $5$], bm-title: [Between 2 and 5], level: 2)[
+*Find the smallest positive integer $N$ such that there are exactly $25$ integers $x$ satisfying the inequality $2 <= N\/x <= 5$.*
+
+_(Problem of August 20th in the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 168, title: [All even or all odd], level: 2)[
+*What is the sum of all squares less than $1 thin 000 thin 000$ that are written with either all even or all odd digits?*
+
+Note: $1$, $4$ and $9$ will be included in the sum. The digit $0$ is considered even.
+
+_(Proposed by Le Coyote. Inspired by a problem from the 30th Mathematical and Logical Games Championship)_
+]
+
+
+#problem-block(number: 169, title: [Seating arrangements], level: 4)[
+Eleven couples are going to sit around a table. We want to alternate men and women, and we also want no husband to sit next to his wife.
+
+*How many seating arrangements satisfy these two conditions?*
+
+_(Lucas' households)_
+]
+
+
+#problem-block(number: 170, title: [Numbers in a Cross], level: 3)[
+*In how many ways can the integers from $1$ to $12$ be arranged so that the sum of the numbers at the vertices of each square is always the same?*
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 140pt, "../figures/croix.gif")
+  #v(0.5em)
+]
+
+_(Proposed by David Draï. Heavily inspired by the problem from February 11th in the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 171, title: [Rhombuses], level: 3)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 40pt,
+    [
+    Let $T(n)$ be the number of rhombuses contained in an equilateral triangle with side length $n$.
+
+    In the figure opposite, $n = 4$ and $T(4) = 21$.
+
+    *What is the smallest value of n such that T(n) is a multiple of $10^6$?*
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 120pt, "../figures/171.gif")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+_(Proposed by David Draï. Heavily inspired by the problem of February 17th from the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 172, title: [Seven fun], level: 2)[
+An integer is $7$-fun if the sum of its digits is divisible by $7$. A $7$-fun pair consists of two consecutive $7$-fun integers.
+
+For example, $69999$ and $70000$ form a $7$-fun pair.
+
+*Find all $7$-fun pairs for integers less than one million.* Give the sum of the smallest integers in these pairs.
+
+_(FFJM, Belgian final 2015, problem 11)_
+]
+
+
+#problem-block(number: 173, title: [Eight-Parade], level: 4)[
+On a circle, place eight points $A$, $B$, $C$, $D$, $E$, $F$, $G$ and $H$ so that $A B C D E F G H$ forms a regular octagon. Assign them the numbers $0$, $2$, $0$, $6$, $2$, $0$, $1$ and $6$, respectively.\
+Starting with the number $0$, without lifting the pencil, draw a path of seven different segments that indicates the date June 2, 2016: $0$-$2$-$0$-$6$-$2$-$0$-$1$-$6$.\
+This forms six angles whose vertices are on the circle. The sum of the six angles cannot be less than a certain value $M$ (in degrees), which is actually reached for some paths.\
+Finally, we associate an $8$-digit number with each path: each digit corresponds to the rank of the letter in the alphabet. For example, we associate the number $62385178$ with the path $F B C H E A G H$.\
+Let $P$ be the sum of the numbers associated with all routes having a minimum angle sum $M$.
+
+*What is the value of $M times P$?*
+
+_(Proposed by David Draï. Heavily inspired by problem 16705, "Le Huit-Parade" published in Tangente No. 167, from the Swiss Final of the Mathematical and Logical Games Championship)_
+]
+
+
+#problem-block(number: 174, title: [Let's place $n$ points on a circle...], bm-title: [Let's place n points on a circle...], level: 4)[
+We place $n$ points randomly on a circle, and we denote by $p(n)$ the probability that these $n$ points all belong to the same semicircle.
+
+*What is the smallest integer value of $1\/p(n)$ greater than $10^4$?*
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 175, title: [Hexagonal tiles], level: 4)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 10pt,
+    [
+    A hexagonal tile numbered $1$ is surrounded by a ring of six tiles numbered $2$ to $7$, with the first tile in the ring placed at noon and turning counterclockwise.\
+    New rings are added in the same way, with the following rings numbered $8$ to $19$, $20$ to $37$, $38$ to $61$, and so on.\
+    The diagram opposite shows the first three rings.
+
+    By calculating the difference between the tile numbered n and each of its six neighbors, we will call $op("DP")(n)$ the number of these differences that are prime numbers.\
+    For example, around tile number $8$, the differences are $12$, $29$, $11$, $6$, $1$ and $13$. Therefore, $op("DP")(8)=3$.\
+    Similarly, around tile number $17$, the differences are $1$, $17$, $16$, $1$, $11$ and $10$, hence $op("DP")(17)=2$.\
+    It can be shown that the maximum value of $op("DP")(n)$ is $3$.\
+    When all the tiles for which $op("DP")(n)=3$ are listed in ascending order to form a sequence, the $10$#super[th] tile has the number $271$.
+
+    *Find the number of the $2016$#super[th] tile in this sequence.*
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 180pt, "../figures/175.gif")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+_(Problem 128 of Project Euler)_
+]
+
+
+#problem-block(number: 176, title: [Sea races], level: 4)[
+Four boats are competing in a regatta. The regatta consists of seven races.\
+At the end of each race, each crew is awarded one point if they finish the race, plus one point for each boat that finishes behind them.\
+There are never any ties in a race, but to break any ties in the total points, the rule stipulates that one crew is "ahead" of another if, over the seven races, it finished ahead of the other more often.
+
+At the end of such a regatta, it was found that:
+- all boats finished all races,
+- crews $A$, $B$, and $C$ are tied on points,
+- crew $A$ is "ahead" of $B$, $B$ is "ahead" of $C$, and $C$ is "ahead" of $A$!
+- the winning crew $D$ finished in all possible places.
+
+Let $S_1, dots, S_k (k>1)$ be the possible total scores for crew $D$. A regatta is defined as an (ordered) list of the seven rankings in the seven races.
+
+Example: $(A B C D)$, $(B C D A)$, $(C D A B)$, $(D A B C)$, $(A C B D)$, $(A D B C)$, $(C A B D)$ is a regatta. There are therefore $(4!)^7 = 4 thin 586 thin 471 thin 424$ regattas.\
+Let $N_i$ be the number of regattas that satisfy all the constraints and for which the total score of crew $D$ is $S_i$.
+
+*What is the sum of $N_i times S_i$, for $i$ ranging from $1$ to $k$?*
+
+_(Proposed by David Draï, based on a problem entitled "Courses en mer" published in issue 168 of Tangente)_
+]
+
+
+#problem-block(number: 177, title: [So many $0$s...], bm-title: [So many 0s...], level: 2)[
+$n!$ means $n times (n-1) times dots.c times 3 times 2 times 1$.
+
+*How many $0$s does $n!$ end with for $n=100 thin 000 thin 000$?*
+
+_(Proposed by Over_score)_
+]
+
+
+#problem-block(number: 178, title: [T9], level: 3)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 10pt,
+    [
+    Keypad cell phones offer a text input method called T9. The $26$ letters of the alphabet are distributed across keys $2$ to $9$, as shown in the figure opposite.
+
+    To enter a word, simply enter the corresponding sequence of numbers. For example, "Turing" will be coded as $887464$.\
+    Of course, several words may correspond to the same sequence. For example, the sequence $36724368$ encodes the six words "dopaient", "doraient", "dosaient", "enragent", "enraient", "foraient".
+
+    The file *dico.txt*#footnote([This text file _dico.txt_ is also attached to this PDF.]) contains $323 thin 471$ unaccented French words.
+
+    *Using this dictionary, find the T9 sequence that encodes the most French words.*
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 80pt, "../figures/T9.png")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 179, title: [How many grains?], level: 3)[
+A cryptarithm is a numerical and logical puzzle consisting of a mathematical equation in which letters represent numbers to be found. Two different letters represent two different numbers, and two different numbers are always represented by two different letters. No non-zero number begins with a zero.
+
+#align(center)[
+```
+  GRAIN
++ GRAIN
++ GRAIN
++  ...
+-------
+= SABLE
+```
+]
+
+*What is the maximum number of `GRAIN` that can be added together so that the cryptarithm has at least one solution?* Give the sum of the possible `SABLE` values for this maximum number of `GRAIN` as your answer.
+
+_(From "121 rapidos et autres énigmes mathématiques")_
+]
+
+
+#problem-block(number: 180, title: [Contagion], level: 4)[
+At the beginning (step $0$), before launching a computer program, a certain number of squares in a $5 times 7$ grid are "infected".\
+Then, the computer simulates contagion.\
+Step by step, each uninfected square adjacent on one side to exactly two infected squares is infected in turn (unfortunately, the infected squares remain infected!).\
+There is a nice demonstration#text(fill: sec-color)[\*] of the fact that at least $6$ non-adjacent squares must be “infected” in pairs at the beginning for all $35$ squares in the grid to be infected after a certain number of steps.\
+In this case, total infection—if it occurs—necessarily takes place in at most $29$ steps.
+
+Example
+#footnote(["Étape" means "Step".])
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 350pt, "../figures/contagion.png")
+  #v(0.5em)
+]
+
+The grid above allows total contamination in $10$ steps.\
+Let $N(k)$ be the number of starting grids with exactly $6$ non-adjacent contaminated squares, leading to total contamination in $k$ steps.
+
+*What is the sum of $k times N(k)$, for $k = 1, dots, 29$?*
+
+#text(fill: sec-color)[\*] It is easy to see that during the contamination process, the total perimeter of the contaminated area remains unchanged. Since the perimeter of the grid is 24 and that of a square is $4$, at least $24\/4 = 6$ (non-adjacent) squares are needed to achieve complete contamination.
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 181, title: [Pandigital endpoints], level: 3)[
+The Fibonacci sequence is defined by the recurrence relation: $F_n = F_(n-1) + F_(n-2)$, with $F_1 = 1$ and $F_2 = 1$.\
+It turns out that $F_541$, which contains $113$ digits, is the first Fibonacci number for which the last nine digits are $1$-$9$-pandigital (all digits from $1$ to $9$ are present, but not necessarily in order).\
+$F_2749$, which contains $575$ digits, is the first Fibonacci number for which the first nine digits are $1$-$9$-pandigital.
+
+*Let $F_k$ be the first Fibonacci number for which the first nine digits and the last nine digits are $1$-$9$-pandigital. Find $k$.*
+
+_(Problem 104 of Project Euler)_
+]
+
+
+#problem-block(number: 182, title: [Reversible numbers], level: 3)[
+Certain positive integers $n$ have the property that the sum $[n + op("mirror")(n)]$ consists entirely of odd digits.#footnote([$op("mirror")(n)$ means to reverse the (decimal) digits of the number $n$.]) For example, $36 + 63 = 99 and 409 + 904 = 1313$. We will call these numbers "reversible"; therefore, $36$, $63$, $409$ and $904$ are reversible.\
+Zeros are not allowed in the sum, nor at the end of the number $n$. For example, $10$ is not a reversible number, even though $10 + 01 = 11$.\
+There are $120$ reversible numbers less than one thousand.
+
+*How many reversible numbers are there less than ten billion?*
+
+_(Problem 145 of Project Euler)_
+]
+
+
+#problem-block(number: 183, title: [All $7$s], bm-title: [All 7s], level: 3)[
+This division is correct. All the $7$s that appear are given. All other numbers have been erased.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 200pt, "../figures/7.png")
+  #v(0.5em)
+]
+
+There are several solutions...
+
+*Give the sum of all possible dividends.*
+
+_(Lewis Carroll Trophy)_
+]
+
+
+#problem-block(number: 184, title: [Heterographs], level: 1)[
+The file *dico.txt*#footnote([This text file _dico.txt_ is also attached to this PDF.]) contains $323 thin 471$ French words without accents.\
+A heterograph is a word in which each letter appears at most once. Here are some examples of such words:
+#align(center)[
+a, je, cage, clapoter, hibou, émir, va-nu-pieds (hyphens are not letters), ...
+]
+
+However, these words do not satisfy the constraint:
+#align(center)[
+enragé (accents do not count), capable, ...
+]
+
+*How many words in the dico.txt dictionary are heterograms?*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 185, title: [Pyramid], level: 3)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 10pt,
+    [
+    The number contained in each circle is the sum of the numbers contained in the two circles directly below it.\
+    All numbers are strictly positive integers that are distinct from each other.
+
+    *Assuming the leftmost number is less than the rightmost number, what numbers must be placed on the bottom row to minimize the sum of the $15$ numbers?*
+
+    The answer will be the concatenation of these five numbers read from left to right.
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 100pt, "../figures/pyramide.png")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 186, title: [Gemellograms], level: 2)[
+The file *dico.txt*#footnote([This text file _dico.txt_ is also attached to this PDF.]) contains $323 thin 471$ French words without accents.\
+We will call a "gemellogram" (a word invented for this purpose) a word in which each letter appears exactly twice. Here are a few examples of such words:
+#align(center)[
+joujou, ionisons, même or mémé (accents do not count), kif-kif (hyphens do not count)...
+]
+
+However, these words do not satisfy the constraint:
+#align(center)[
+maman, passe-passe
+]
+
+*How many words in the dico.txt dictionary are gemellograms?*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 187, title: [Divisibility], level: 2)[
+Two different integers are randomly drawn from the interval $[1, 10000]$.
+
+*What is the probability that the larger number is a multiple of the smaller number?*
+
+When calculating this probability, you will obtain a repeating decimal. Give the period#footnote([The repeating decimal digits.]) as your answer.
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 188, title: [Sum of cubes], level: 4)[
+Let $S$ be the set of strictly positive integers that can be decomposed into a sum of cubes of odd integers, each pair of which is distinct.
+
+Examples: $125$ and $2568$ are in $S$ because $5^3 = 125$ and $1^3 + 3^3 + 7^3 + 1^3 = 2568$.
+
+For any integer $i$ in ${0, 1, dots, 287}$, we call $s_i$ the smallest element of $S$ such that $s_i = i[288]$ (i.e., the remainder of the Euclidean division of $s_i$ by $288$ is $i$).\
+We therefore have $s_0 = 17568$, $s_1 = 1$, $s_2 = 3746$, ...
+
+*What is the sum of the $s_i$ values for $i$ ranging from $0$ to $287$?*
+
+P.S. We chose $288$ because $2016 = 7 times 288$.
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 189, title: [Sum of integer fractions], level: 4)[
+In the equation below, $x$, $y$, and $n$ are positive integers.
+$ 1/x +	1/y = 1/n $
+
+For $n = 4$, there are exactly $3$ distinct solutions:
+$
+1/5 + 1/20 &= 1/4\
+1/6 + 1/12 &= 1/4\
+1/8 + 1/8 &= 1/4
+$
+
+*What is the smallest value of $n$ for which the number of distinct solutions is greater than or equal to $2016$?*
+
+_(Problem 108 of Project Euler)_
+]
+
+
+#problem-block(number: 190, title: [Mountains of prime numbers], level: 4)[
+"Mountains" with slopes of exactly $45 degree$ and heights governed by prime numbers pn follow one another to form a mountain range. The height of the left side of the $k$#super[th] mountain is $p_(2k-1)$, while that of the right side is $p_(2k)$. The first mountains in this range are shown below.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 300pt, "../figures/montagnes.jpg")
+  #v(0.5em)
+]
+
+Tenzing sets out to climb these mountains one after the other, starting with the lowest. At the top of each peak, he looks back and counts how many previously conquered peaks he can see.\
+In the example below, the line of sight from the third peak, drawn in red, shows that he can only see the second peak. Similarly, from the $9$#super[th] peak, he can only see three peaks: the $5$#super[th], $7$#super[th] and $8$#super[th].\
+Let $P(k)$ be the number of peaks visible when looking back from the $k$#super[th] peak. We have $P(3)=1$ and $P(9)=3$. Furthermore, the sum of $P(k)$, for $k$ ranging from $1$ to $100$, is $227$.
+
+*What is the sum of $P(k)$, for $k$ ranging from $1$ to $10 thin 000$?*
+
+(Proposed by David Draï. Inspired by problem 569 pf Project Euler)
+]
+
+
+#problem-block(number: 191, title: [Bouncing numbers], level: 2)[
+When reading a positive integer from left to right, if no digit is larger than the digit to its left, it is called an "ascending number." Example: $134468$.
+
+Similarly, if no digit is larger than the digit to its right, it is called a "descending number." Example: $66420$.
+
+We will call a positive integer that is neither ascending nor descending a "bouncing number." For example, $155349$.
+
+Clearly, there cannot be bouncing numbers less than $100$, but slightly more than half of the numbers less than $1000$ are bouncing numbers ($525$). In fact, the smallest number for which the proportion of bouncing numbers first reaches $50%$ is $538$.
+
+Bounced numbers become increasingly frequent, and the proportion of bouncing numbers exceeds $90%$ starting at $21780$.
+
+*Find the smallest positive integer for which the proportion of bouncing numbers first reaches or exceeds $99.9%$.*
+
+_(Problem 112 of Project Euler)_
+]
+
+
+#problem-block(number: 192, title: [Squares everywhere], level: 4)[
+Let $n = x + y + z$, where $x > y > z > 0$ are integers.
+
+*Find the smallest $n$ such that $x + y$, $x - y$, $x + z$, $x - z$, $y + z$ and $y - z$ are all squares.*
+
+_(Problem 142 of Project Euler)_
+]
+
+
+#problem-block(number: 193, title: [Santa Claus' Gifts], level: 4)[
+A sled measuring seven units in length contains red packages with a minimum length of $3$ units placed on it. Two packages must be separated by at least one unit in length. There are exactly $17$ ways to fill the sled:
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 350pt, "../figures/blocs.jpg")
+  #v(0.5em)
+]
+
+*How many ways can a sled measuring $60$ units in length be filled?*
+
+NOTE: Although the above example does not lend itself to this, it is permissible to mix package sizes. For example, on a sleigh measuring eight units in length, you can use the arrangement $3$-$(1)$-$4$ where $(1)$ is an empty space.
+
+_(Problem 114 of Project Euler)_
+]
+
+
+#problem-block(number: 194, title: [Homer's theorem], level: 3)[
+In episode 2 of season 10 of The Simpsons (1998), entitled "Homer's Last Invention", the following table can be seen:
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 260pt, "../figures/simpson.jpg")
+  #v(0.5em)
+]
+
+The line $3987^12 + 4365^12 = 4472^12$ is a false counterexample to Fermat's theorem. Indeed, the left-hand side is $63976656349698612616236230953154487896987106$, while the right-hand side is $63976656348486725806862358322168575784124416$, a difference of $1211886809373872630985912112862690$. However, the relative error is small enough ($1.9 times 10^(-11)$) that a standard calculator would consider these two terms to be equal. Note that the relative difference was calculated by dividing the difference by the left-hand term.
+
+*At the start of 2017, we would like to find the triplet $(a, b, c)$, with $a$, $b$ and $c$ all different, such that $a^17+b^17=c^17$ has the smallest relative error, with the numbers $a$ and $b$ between $100$ and $10 thin 000$.* Give your answer as the product $a times b$.
+
+_(Inspired by a post by Dr. Goulu: #link("https://drgoulu.com/2016/03/25/contre-exemples-au-theoreme-de-fermat-wiles")["« Contre-exemples » au théorème de Fermat-Wiles"])_
+]
+
+
+#problem-block(number: 195, title: [$987654321$], bm-title: [987654321], level: 4)[
+In this puzzle, you have to insert $+$ or $-$ signs between some of the numbers from $9$ to $1$ in order to obtain an exact equal sum.\
+With seven addition and subtraction signs, you can write, for example: $9 + 8 + 76 + 5 + 4 - 3 + 2 - 1 = 100$. But there are $14$ other ways to write $100$, and it is possible to use fewer signs. For example, with only four signs, we get:
+$ 98 - 76 + 54 + 3 + 21 = 100. $
+
+We want to write as many consecutive natural numbers as possible in this way, using a minimum number of symbols. Here is a possible start:
+- $9 + 8 - 76 - 5 + 43 + 21 = 0$
+- $98 - 76 - 54 + 32 + 1 = 1$
+- $9 + 87 - 65 + 4 - 32 - 1 = 2$
+- etc.
+
+Let $A$ be the first integer that cannot be written in this way. The sequence will go from $0$ to $A-1$.\
+Let $B$ be the total number of operation signs used to write all integers less than $A$.\
+Let $C$ be the integer less than $A$ that can be obtained with the fewest operational signs.\
+Let $D_1, D_2, dots, D_n$ be the integers less than $A$ that can only be written in one way (in the sense that $100$ can be written in $15$ ways...).
+
+*What is the value of $A times B times C times D_1 times D_2 times dots.c times D_n$?*
+
+_(Proposed by David Draï, based on "The Numerology of Dr Matrix", Martin Gardner, Simon and Schuster, 1967)_
+]
+
+
+#problem-block(number: 196, title: [Odd-digit numbers], level: 1)[
+Consider all five-digit numbers that can be composed using each odd digit exactly once: $13579$, $13597$, $13759$, ..., $97531$.
+
+*What is the sum of all these numbers?*
+
+_(#link("www.enygmatik.com")[www.enygmatik.com])_
+]
+
+
+#problem-block(number: 197, title: [I am the one who is], level: 2)[
+Find the positive integers less than one billion where the first digit is the number of $0$s in the number, the second is the number of $1$s in the number, and so on until the last digit of the number.\
+The first of these numbers is $1210$.
+
+*What is the sum of all these numbers?*
+
+_(#link("www.prise2tete.fr")[www.prise2tete.fr])_
+]
+
+
+#problem-block(number: 198, title: [Forbidden squares], level: 3)[
+There are infinite sets of natural numbers such that the sum of any number of their (distinct) elements is never the square of an integer. This is the case for ${2, 8, 32, dots, 2^(2k + 1), dots}$, for example.
+
+A natural way to construct such a set step by step is as follows (by recurrence):\
+We construct the strictly increasing sequence $(u_n)_(n >= 1)$ defined by the fact that for any non-zero integer $n$, $u_n$ is the smallest natural number such that the sum of the elements of any non-empty subset of $(u_1, u_2, dots, u_n)$ is never a square of an integer.
+
+*What is the sum of the first $14$ terms of this sequence?*
+
+_(Proposed by David Draï, based on "Carrés interdits" in "121 rapidos et autres énigmes mathématiques", Michel Criton, POLE, 2007)_
+]
+
+
+#problem-block(number: 199, title: [Snowflakes], level: 4)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 10pt,
+    [
+    An $n$-order snowflake is formed by superimposing an equilateral triangle (rotated $180$ degrees) on each equilateral triangle of the same size in an $n-1$ order snowflake. An $1$-order snowflake is an equilateral triangle.
+
+    Some areas of the snowflake are superimposed several times. In the image opposite, blue represents areas of thickness $1$, red those of thickness $2$, yellow those of thickness $3$, and so on...
+
+    For a snowflake of order $n$, we call $A(n)$ the number of blue triangles and $B(n)$ the number of yellow triangles.\
+    Let $G(n)$ be the greatest common divisor (GCD) of $A(n)$ and $B(n)$.
+
+    For example, $A(3) = 30$, $B(3) = 6$ and $G(3) = 6$.\
+    $A(11) = 3 thin 027 thin 630$, $B(11) = 19 thin 862 thin 070$ and $G(11) = 30$.
+
+    Furthermore, $G(500) = 186$.
+
+    *What is the sum of $G(n)$ for $n$ ranging from $3$ to $10 thin 000$?*
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 180pt, "../figures/flocon.png")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+_(Proposed by David Draï, based on problem 570 of Project Euler)_
+]
+
+
+#problem-block(number: 200, title: [Cross squares], level: 4)[
+A single square can be formed whose four vertices are points on this cross with side length $1$.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 50pt, "../figures/croix1.png")
+  #v(0.5em)
+]
+
+Similarly, $21$ squares can be formed with this cross with side length $2$.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 95pt, "../figures/croix2.png")
+  #v(0.5em)
+]
+
+To the side length $n$ of the cross, we associate the number of squares $C(n)$ that can be formed using the points of the cross as vertices. Thus, $C(1) = 1$ and $C(2) = 21$.
+
+*What is the sum of the $C(n)$ for n ranging from $1$ to $20$?*
+
+_(Proposed by David Draï, based on the April 8th Problem from the 2014 Mathematical Calendar)_
 ]
 
