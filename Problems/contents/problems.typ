@@ -1210,7 +1210,7 @@ $A B C D C B A$ is a $7$-digit number encoded using the $4$ letters $A$, $B$, $C
 
 *Give the largest square of the form $A B C D C B A$.*
 
-_(FFJM - Swiss Final 2014, problem 18)_
+_(FFJM -- Swiss Final 2014, problem 18)_
 ]
 
 
@@ -1400,7 +1400,7 @@ _(Problem 70 from "100 jeux de chiffres", by Pierre Berloquin)_
 ]
 
 
-#problem-block(number: 101, title: [Division by 11], level: 2)[
+#problem-block(number: 101, title: [Division by $11$], bm-title: [Division by 11], level: 2)[
 Mathilde has just divided a number $n$ by $11$. The quotient, which is exact, is equal to the sum of the cubes of the digits of $n$.
 
 For example: $6171\/11 = 561 = 6^3 + 1^3 + 7^3 + 1^3$.
@@ -1581,15 +1581,15 @@ _(Proposed by Le Coyote)_
 ]
 
 
-#problem-block(number: 114, title: [$49$th natural Kaprekar number], bm-title: [49th natural Kaprekar number],  level: 2)[
+#problem-block(number: 114, title: [$49$#super[th] natural Kaprekar number], bm-title: [49th natural Kaprekar number],  level: 2)[
 A natural integer $k$ with $n$ digits is called a natural Kaprekar number if its square can be broken down into a right part with $n$ digits and a left part with $n$ or $n-1$ digits such that their sum is $k$.
 
-$45$ is the $3$rd natural Kaprekar number, because $45^2 = 2025$ and $20 + 25 = 45$.\
-$297$ is the $6$th natural Kaprekar number, because $297^2 = 88209$ and $88+209 = 297$.
+$45$ is the $3$#super[rd] natural Kaprekar number, because $45^2 = 2025$ and $20 + 25 = 45$.\
+$297$ is the $6$#super[th] natural Kaprekar number, because $297^2 = 88209$ and $88+209 = 297$.
 
 The first $15$ natural Kaprekar numbers are: $1$, $9$, $45$, $55$, $99$, $297$, $703$, $999$, $2223$, $2728$, $4950$, $5050$, $7272$, $7777$, $9999$.
 
-*What is the $49$th natural Kaprekar number?*
+*What is the $49$#super[th] natural Kaprekar number?*
 
 _(Proposed by Le Coyote)_
 ]
@@ -1894,7 +1894,7 @@ _(This puzzle is known on the web as "The (100) prisoners and the light bulb")_
 ]
 
 
-#problem-block(number: 134, title: [2015 is (once again) a palindrome], level: 3)[
+#problem-block(number: 134, title: [$2015$ is (once again) a palindrome], bm-title: [2015 is (once again) a palindrome], level: 3)[
 The year $2015$ has an interesting property: $2015 = 84^2 - 71^2 = 48^2 - 17^2$.\
 We will have to wait until $3024$ to see the same property again: $3024 = 75^2 - 51^2 = 57^2 - 15^2$.\
 For the differences between the two squares, only two-digit numbers that are neither multiples of $11$ nor multiples of $10$ will be used.
@@ -1929,7 +1929,7 @@ where $A < B < C < D < E$.
 
 *Give the number $A B C D E$ as the answer.*
 
-(Problem 1 from "Le chat à six pattes et autres casse-tête" by Louis Thépault)
+_(Problem 1 from "Le chat à six pattes et autres casse-tête" by Louis Thépault)_
 ]
 
 
@@ -1944,7 +1944,7 @@ Sisyphus starts the game by placing the token on square $0$. He then rolls the d
 
 Enter the last ten digits of the numerator of the irreducible fraction as your answer.
 
-(Problem inspired by Problem III of the 2013 Concours Général des Lycées. Proposed by David Draï)
+_(Problem inspired by Problem III of the 2013 Concours Général des Lycées. Proposed by David Draï)_
 ]
 
 
@@ -2110,6 +2110,7 @@ _(Proposed by Le Coyote)_
 
 #problem-block(number: 150, title: [No black squares], level: 4)[
 The numbers $4$, $7$, $19$ and $37$ have a remarkable property:
+
 - Every natural number can be written as the sum of at most $4$ integer squares (Lagrange's theorem)
 - Every natural number can be written as the sum of at most $7$ integer cubes (with the exception of $17$ integers, all less than $455$, which require $8$ or $9$...)
 - Any natural number can be written as the sum of at most $19$ fourth powers
@@ -2301,7 +2302,7 @@ _(La Recherche magazine)_
 
     *If you number the squares of the snail as shown in the drawing, what is the sum of the $15$ products "square number $times$ square content"?*
 
-The $10$ empty squares will not be taken into account.
+    The $10$ empty squares will not be taken into account.
     ],
     [
     #align(center)[
@@ -2325,7 +2326,7 @@ For example: $2bold(4)5bold(5)6bold(3)4bold(6)3$.
 
 *Following this rule, how many different numbers can be formed?*
 
-(FFJM, individual quarterfinals 2016, problem 12)
+_(FFJM, individual quarterfinals 2016, problem 12)_
 ]
 
 
@@ -2352,7 +2353,7 @@ One might conjecture that if $P_n$ is a multiple of $n$, then $n$ is a prime num
 
 *What is the smallest non-prime integer $n > 18$ such that $P_n$ is a multiple of $n$?*
 
-("Suite de Perrin". Proposed by Vincent Bernigole)
+_("Suite de Perrin". Proposed by Vincent Bernigole)_
 ]
 
 
@@ -2609,7 +2610,7 @@ _(From "121 rapidos et autres énigmes mathématiques")_
 At the beginning (step $0$), before launching a computer program, a certain number of squares in a $5 times 7$ grid are "infected".\
 Then, the computer simulates contagion.\
 Step by step, each uninfected square adjacent on one side to exactly two infected squares is infected in turn (unfortunately, the infected squares remain infected!).\
-There is a nice demonstration#text(fill: sec-color)[\*] of the fact that at least $6$ non-adjacent squares must be “infected” in pairs at the beginning for all $35$ squares in the grid to be infected after a certain number of steps.\
+There is a nice demonstration#text(fill: sec-color)[\*] of the fact that at least $6$ non-adjacent squares must be "infected" in pairs at the beginning for all $35$ squares in the grid to be infected after a certain number of steps.\
 In this case, total infection—if it occurs—necessarily takes place in at most $29$ steps.
 
 Example
@@ -2796,7 +2797,7 @@ Let $P(k)$ be the number of peaks visible when looking back from the $k$#super[t
 
 *What is the sum of $P(k)$, for $k$ ranging from $1$ to $10 thin 000$?*
 
-(Proposed by David Draï. Inspired by problem 569 pf Project Euler)
+_(Proposed by David Draï. Inspired by problem 569 pf Project Euler)_
 ]
 
 
@@ -2974,3 +2975,974 @@ To the side length $n$ of the cross, we associate the number of squares $C(n)$ t
 _(Proposed by David Draï, based on the April 8th Problem from the 2014 Mathematical Calendar)_
 ]
 
+
+#problem-block(number: 201, title: [Lucky numbers], level: 2)[
+Lucky number --- A natural number determined in 1956 by Polish mathematician Stanislaw Ulam (1909-1984) by applying the principle of Eratosthenes' sieve.
+
+We start by removing the even numbers. Since $3$ remains after $1$, which is considered lucky, the third number out of three among those remaining is removed. Next, the smallest number not yet removed is $7$. The seventh number out of seven among those remaining is then removed, and so on, with the smallest remaining number always indicating the rank of the numbers to be removed.
+
+There are $23$ lucky numbers between $1$ and $100$:\ $1 med 3 med 7 med 9 med 13 med 15 med 21 med 25 med 31 med 33 med 37 med 43 med 49 med 51 med 63 med 67 med 69 med 73 med 75 med 79 med 87 med 93 med 99$.
+
+*How many lucky numbers are there in the range $[1, 100 thin 000]$?*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 202, title: [Twins], level: 1)[
+Write the numbers $1, 2, dots, 37$ on the first row of a table with $28$ rows and $37$ columns. Then, on the second row, write $38, dots, 74$, and so on (from left to right).\
+Also write the numbers $1, 2, dots, 28$ in the first column. Then, in the second column, write $29, dots, 56$, and so on (from top to bottom).\
+In some cells, the two numbers will be identical. We will call them twins.
+
+*What is the sum of the twin numbers?* Each twin number is counted only once.
+
+_(2017 Mathematical Calendar, Presses universitaires de Strasbourg)_
+]
+
+
+#problem-block(number: 203, title: [Maya's mess], level: 4)[
+Maya, the secretary, has messed up all the files.
+
+Each file number should correspond to the number of the shelf it is on. We need to put them back in place quickly before Mr. Boss arrives!
+#footnote(["Étagère" means "Shelf"; "Dossier" means "File".])
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 240pt, "../figures/dossiers.png")
+  #v(0.5em)
+]
+
+But be careful! The files are very heavy, and Maya can only move one at a time, pushing it to a neighboring shelf (to the left, right, front, or back) as long as that shelf is empty. Maya found the most economical solution (in terms of time and energy) since she managed to do it in a minimum number of moves, $A$.
+
+Let $p$ be the integer part of $(A + 1)\/2$. In the initial situation (see diagram opposite, top view), the number $50621743$ can be read by following the ascending order of the shelves and assigning the number $0$ to the empty shelf.
+
+*Similarly, what $8$-digit number $B$ can be read after the $p$-th move?* We will enter the value of the product $A times B$.
+
+_(Proposed by David Draï, inspired by Problem No. 1 of January 19th, 1997, from the Mathematical Games of "Monde" by Élisabeth BUSSER and Gilles COHEN --- Éditions POLE)_
+]
+
+
+#problem-block(number: 204, title: [Square sums], level: 4)[
+*How many natural numbers less than or equal to $10^13$ have a sum of digits that is the square of an integer (including $0$, $1$, $4$ and 9)?*
+
+For example, the number $27$ satisfies this property because $2 + 7 = 9 = 3^2$.
+
+_(Proposed by David Draï, based on the September 23rd puzzle from the 2016 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 205, title: [Parallelograms], level: 4)[
+We draw two parallel lines in a first direction, then three parallel lines in a second direction (different from the first), then four parallel lines in a third direction (different from the previous two).\
+At this stage, we have drawn a total of $9$ lines and we can see $27$ parallelograms drawn on the figure. We then continue constructing the figure using the same process.
+
+*What is the minimum number of lines that must be drawn for the number of parallelograms drawn to be a multiple of one million?*
+
+_(Proposed by David Draï, inspired by a problem from the Mathematical and Logical Games Championship)_
+]
+
+
+#problem-block(number: 206, title: [Prime numbers in arithmetic progression], level: 4)[
+For any integer $n$ greater than $1$, we define the "primorial" of $n$, denoted $P(n)$, as the product of all prime numbers less than or equal to $n$. Thus, $P(10) = 210$.
+- $5 -> 11 -> 17 -> 23 -> 29$ is the longest arithmetic sequence of prime numbers less than $100$ (ratio = $6$)
+- $7 -> 157 -> 307 -> 457 -> 607 -> 757 -> 907$ is the longest arithmetic sequence of prime numbers less than $1000$ (ratio = $150$)
+- $199 -> 409 -> 619 -> 829 -> 1 thin 039 -> 1 thin 249 -> 1 thin 459 -> 1 thin 669 -> 1 thin 879 -> 2 thin 089$ is the longest arithmetic sequence of prime numbers less than $10 thin 000$ (common difference = $210$).
+
+Regarding the ratios of these arithmetic sequences, it has been proven that if the sequence is of length $k$, then the ratio is a multiple of $P(k)$, unless $k$ is prime and the sequence begins at $k$.\
+Since 2004, we have known that for any integer $n$, there is at least one arithmetic sequence of prime numbers greater than or equal to $n$. But to date, we do not know of any such sequences longer than $26$...
+#footnote([
+_(Commented by *drai.david*, 03/27/2017)_ #h(1em)
+The idea initially came to me from the article "Les aiguilles tournent, le mystère demeure" by Vincent Borrelli and Jean-Luc Rullière, published in: Dossier Pour la science n°91 (April--June 2016): "Quand les Maths prennent forme".
+I then supplemented my information at: #link("https://fr.wikipedia.org/wiki/Théorème_de_Green-Tao"). And there are a host of results related to this problem on this page: #link("http://primerecords.dk/aprecords.htm").
+])
+
+*What is the longest arithmetic sequence of prime numbers less than $1$ million, given that its first term is neither $13$ nor $17$?* We will calculate the sum of the terms of this sequence.
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 207, title: [Regions], level: 3)[
+By drawing a line, we divide the plane into two regions.\
+By drawing another line intersecting the first, the plane is divided into four regions.\
+By drawing a third line intersecting the first two at two different points, we obtain seven regions.\
+Let $R_n$ be the sequence of the number of regions of the plane defined by $n$ intersecting lines $2$ by $2$ and non-concurrent $3$ by $3$. Thus, for example, $R_3 = 7$.
+
+It seems that the probability that a randomly chosen prime number does not divide any element of $R_n$ is very close to $1\/2$.\
+Let $S(k)$ be the sum of prime numbers less than or equal to $k$ that do not divide any element of $R_n$.\
+We are given $S(10) = 3 + 5 = 8$, $S(100) = 638$ and $S(1000) = 38 thin 582$.
+
+*What is the value of $S(10 thin 000)$?*
+
+_(Proposed by David Draï, based on "100 jeux de logique", Larousse, 2014)_
+]
+
+
+#problem-block(number: 208, title: [Star of David], level: 3)[
+*How many ways can the integers from $1$ to $12$ be placed in the circles so that the sum of the numbers in each straight line is the same?*
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 140pt, "../figures/etoile.gif")
+  #v(0.5em)
+]
+
+_(Problem of June 19th from the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 209, title: [Sum or double?], level: 2)[
+Jean writes the numbers $1$ and then $2$ on the board.\
+He then writes a number that is either double the previous number or the sum of the two previous numbers.
+
+Example of a possible sequence: $1, 2, 3, 6, 12, 18, dots$
+
+*If Jean writes $50$ numbers following this rule and the last number written is odd, what is the largest number that can be written?*
+
+_(Proposed by David Draï, based on the September 19th puzzle from the 2016 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 210, title: [Cyclic numbers], level: 4)[
+A cyclic number of length $n$ is a natural number whose circular permutations of digits correspond to the first $(n-1)$ multiples of the number. The best known (and smallest) is $142 thin 857$, of length $6$, because:
+$
+142 thin 857 times 2 = 285 thin 714\
+142 thin 857 times 3 = 428 thin 571\
+142 thin 857 times 4 = 571 thin 428\
+142 thin 857 times 5 = 714 thin 285\
+142 thin 857 times 6 = 857 thin 142
+$
+
+If zeros are not allowed at the beginning of numbers, then $142 thin 857$ is the only cyclic number in base $10$. However, if they are allowed, the list of cyclic numbers continues as follows:
+
+$0588235294117647$ ($16$ digits); $052631578947368421$ ($18$ digits); ...
+
+A prime number $p$ is said to be long if the period of the decimal expansion of $1\/p$ is of length $p-1$. For example: $1\/7 = 0.142857 142857 dots.c$ The period $(142857)$ is of length $6$, so $7$ is a long prime.
+
+Note: The period of $1\/p$ always begins with the decimal expansion's tenths digit.
+
+Now, extraordinarily, the list of cyclic numbers coincides exactly with the list of periods of long primes! Indeed, the second long prime is $17$, and we have $1\/17 = 0.0588235294117647 thin 0588235294117647 dots.c$
+
+Let $S(n)$ be the sum of all cyclic numbers with at most $n$ digits. Thus, $S(10) = 142 thin 857$ and $S(20) = 53 thin 219 thin 814 thin 241 thin 628 thin 925$.
+
+*What are the last $10$ digits of $S(5000)$?*
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 211, title: [All primes!], level: 4)[
+Let $p$ and $q$ be two prime numbers less than $900$ billion.
+
+*If $p + 6$, $p + 10$, $q + 4$, $q + 10$ and $p + q + 1$ are all primes, what is the largest value that $p + q$ can take?*
+
+_(Proposed by David Draï, based on the June 11th puzzle from the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 212, title: [Triangles from father to son], level: 4)[
+Consider the following geometric transformation: given an initial triangle (the "father triangle"), take the feet of the bisectors of the old triangle as the vertices of the new triangle (the "son triangle").\
+This transformation has the particularity of attenuating the differences between the angles of the initial triangle. Thus, if we iterate the process, two triangles that are initially different in shape will, via this transformation, lead to triangles that are increasingly "similar" and close to the common equilateral limit shape. This fact, far from being obvious, was only proven in 2006.\
+On the other hand, it is clear that the sequence of iterated triangles converges to a point $G$. However, this point cannot be described explicitly (except in the case of the equilateral triangle, of course!).\
+Let us now consider the simplest non-trivial case: let $A B C$ be an initial isosceles triangle with right angle at $A$, and $G$ the point of convergence of the sequence of iterated triangles.
+
+*What is the value of $A G\/A B$, rounded to $10^(-9)$?* Enter the first $9$ decimal places of the result obtained.
+
+_(Proposed by David Draï, based on the article "Le triangle: une porte d'entrée vers le chaos" (Grégoire Nicollier), published in Dossier Pour la science n°91 (April--June 2016): "Quand les Maths prennent forme")_
+]
+
+
+#problem-block(number: 213, title: [Keith numbers], level: 2)[
+A Keith number is an $n$-digit number $K$ with the following property: starting with numbers composed of each of the $n$ digits of $K$, a Fibonacci-like sequence is formed by calculating the sum of the last $n$ numbers in the sequence to determine the next number. If this sequence at some point yields the number $K$, that number is called a Keith number.
+
+Example: $K = 197$\
+$1, 9, 7, 17(=1+9+7), 33(=9+7+17), 57(=7+17+33), 107(=17+33+57), 197(=33+57+107)$
+
+$197$ is therefore a Keith number. The length of the sequence generated by $197$ is $8$.
+
+*Let all Keith numbers between $10$ and $1 thin 000 thin 000$ be given. Find the sum of all these numbers multiplied by the length of their sequence.*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 214, title: [Highly divisible pandigitals], level: 1)[
+A $10$-pandigital integer consists of $10$ different digits. For example: $1234567890$ or $7605483291$.
+
+*Give the sum of the $10$-pandigital integers that are divisible by all integers less than $19$.*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 215, title: [The mystery triangle], level: 4)[
+Given a triangle, let's take the symmetrical point of each vertex in relation to the opposite side or its extension. This gives us the vertices of a new triangle: the "reflected" triangle.\
+If we repeat this process, we obtain a sequence of triangles whose evolution depends heavily on the shape of the initial triangle, hence the interest in studying it.\
+Any triangle whose reflected triangle is similar to it is called a "fixed point" of this geometric transformation. Thus, there are only four types of "fixed points" for this transformation:
+
+- Flattened triangles: it can also be noted that isosceles triangles with a main angle of $120 degree$ produce flattened triangles.
+- The equilateral triangle, an "attractive" fixed point.
+- the "heptagonal" triangle, whose angles are equal to fractions of $1\/7$, $2\/7$, and $4\/7$ of $180 degree$, and which is obtained from a regular heptagon by taking the first, second and fourth vertices.
+- The "mystery" triangle, whose three (different) angles are probably not rational fractions of $180 degree$.
+
+However, we do have two clues about this last triangle: like the "heptagonal" triangle, it has an obtuse angle and is a "repulsive" fixed point, meaning that a triangle with a very similar shape produces a reflected triangle with a less similar shape.
+
+*What is the value in degrees, rounded to the nearest $10^(-5)$, of each of the two acute angles of the "mystery" triangle?* Enter the product of these two values, omitting the decimal point. The expected result is the exact product of two approximate values, not an approximate value of the best possible product.
+
+_(Proposed by David Draï. Based on the article "Le triangle: une porte d'entrée vers le chaos" (Grégoire Nicollier), published in Dossier Pour la science n°91 (April--June 2016): "Quand les Maths prennent forme")_
+]
+
+
+#problem-block(number: 216, title: [Square palindromes], level: 1)[
+A palindrome is a number that reads the same from left to right as it does from right to left, such as $12321$.
+
+We calculate the sum of the squares of the natural numbers, in order: $0^2 + 1^2 + 2^2 + 3^2 + 4^2 + dots.c$\
+We stop the calculation as soon as, after adding the square of a palindromic number with at least two digits, we obtain a sum that is also a palindromic number.
+
+*What will this sum be?*
+
+_(2017 individual quarterfinals of the 31st FFJM Championship)_
+]
+
+
+#problem-block(number: 217, title: [Beetles], level: 3)[
+We have a ruler graduated in units of $1000$. The graduations are numbered from left to right, from $0$ to $1000$.\
+On each graduation of the ruler, corresponding to a prime number, we place a beetle (which is reduced to a point of zero dimension).\
+Each beetle moves at a speed of one unit per second. The first beetle (placed on $2$) moves to the right, the second (placed on $3$) to the left, the third (placed on $5$) to the right, and so on, alternately, until the last beetle placed on $997$, which moves to the left.\
+When a beetle encounters another beetle, both beetles change direction and continue to travel along the ruler, still at the same speed of one unit per second.\
+When a beetle reaches the end of the ruler, it falls off and moves away from it.
+
+*How many seconds will it take for all the beetles to fall off the ruler?*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 218, title: [$2017$], bm-title: [2017], level: 3)[
+We are looking for integers whose square root has the digits $2017$ (in that order) as the first digits after the decimal point. For example, the square root of $10 thin 858$ is $104.2017274 dots.c$
+
+*How many integers between $1$ and $10^10$ satisfy this condition?*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 219, title: [Palindromes of averages], level: 2)[
+The pair of numbers $(32, 98)$ has an interesting feature: their arithmetic mean $(65)$ and geometric mean $(56)$ can be derived from each other by reversing the order of their digits.
+
+There are two pairs $(a, b)$ and $(c, d)$, composed of different $4$-digit numbers, that have the same property.
+
+*Give your answer as $a b + c d$.*
+
+_(Proposed by Le Coyote)_
+]
+
+
+#problem-block(number: 220, title: [Squares as sums of consecutive integers], level: 5)[
+Let $F$ be the function that, for any strictly positive integer $n$, associates the smallest natural number whose square can be written as the sum of $n$ strictly positive consecutive integers, if it exists, and $0$ otherwise.
+
+*Examples*\
+$F(1) = 1$, because $1^2 = 1$;\
+$F(2) = 3$, because $3^2 = 4 + 5$;\
+$F(3) = 3$, because $3^2 = 2 + 3 + 4$;\
+$F(4) = 0$, because no square can be written as the sum of $4$ consecutive integers;\
+$F(6) = 9$, because $9^2 = 11 + 12 + 13 + 14 + 15 + 16$;\
+$F(8) = 6$, because $6^2 = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8$;\
+$F(18) = 15$, because $15^2 = 4 + 5 + dots.c + 21$.
+
+The sum of $F(n)$ for $n$ ranging from $1$ to $1000$ is $448 thin 612$.
+
+*What is the sum of $F(n)$ for $n$ ranging from $1$ to $1$ million?*
+
+_(Proposed by David Draï. Freely inspired by the problem of January 14th from the 2015 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 221, title: [Square + constant = square], level: 4)[
+Let $F$ be the function that, for any non-zero integer $n$, associates the sum of natural integers $x$ such that $x^2 + n$ is a square integer.
+
+*Examples*\
+$F(98)=0$, because there is no natural integer $x$ such that $x^2+98$ is a square.\
+$F(99)=49+15+1=65$, because $49^2+99$, $15^2+99$ and $1^2+99$ are the only three squares ($50^2$, $18^2$ and $10^2$) of the form $x^2+99$.
+
+*What is the sum of $F(n)$ for $n$ ranging from $1$ to $1$ million?*
+
+_(Proposed by David Draï, based on the March 14 problem from the 2017 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 222, title: [The row of lamps], level: 1)[
+Consider a row of $8 thin 000$ lamps. Initially, only the one on the far left is lit.\
+Then, every second, the following operation is performed: each lamp changes state (lit or unlit) if the one to its left was lit a second earlier. The leftmost lamp remains on at all times. This operation is instantaneous.\
+The process stops when the lamp on the far right turns on for the first time.
+
+*How many lamps are on at that point?*
+
+_(Mathematical and Logic Games Championship)_
+]
+
+
+#problem-block(number: 223, title: [Dividing the disk], level: 3)[
+When two points are placed on a circle, connecting these two points divides the disk into two regions.\
+With three points, we obtain four regions.\
+With four points, we have a maximum of eight regions.\
+With five points, we get a maximum of sixteen regions.\
+But with six points or more, we leave the powers of two behind. With $6$ points, we get a maximum of $31$ regions, and with $7$ points, $57$ regions.
+
+*How many regions can we get with a maximum of $100$ points?*
+
+_(Mathematical Carnival, Martin Gardner, Vintage, 1977)_
+]
+
+
+#problem-block(number: 224, title: [Counting hexagons], level: 4)[
+An equilateral triangle with sides of length $n > 2$ is divided into $n^2$ equilateral triangles with sides of length $1$, as shown in the diagram below, where $n = 10$.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 200pt, "../figures/hexagones.png")
+  #v(0.5em)
+]
+
+The vertices of these triangles form a triangular network of $(n+1)(n+2)\/2$ points.
+Let $H(n)$ be the number of regular hexagons that can be formed by connecting $6$ of these points.\
+For example, $H(3) = 1$, $H(6) = 12$ and $H(20) = 966$.
+
+*What is the sum of all $H(n)$ for n ranging from $3$ to $1 thin 000$?*
+
+_(Proposed by David Draï, inspired by Project Euler 577)_
+]
+
+
+#problem-block(number: 225, title: [Heron's envelopes], level: 4)[
+An envelope is a pentagon composed of an isosceles triangle (the flap) placed above a rectangle.\
+Here is an example of an envelope with sides of integer lengths:
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 200pt, "../figures/enveloppe.png")
+  #v(0.5em)
+]
+
+Note that to form an envelope, the height from $C$ of triangle $B C D$ must be less than the height $A B$ of rectangle $A B D E$. Furthermore, AE may well be less than or equal to $A B$.\
+In the envelope in the example above, not only are all the sides integers, but so are all the diagonals ($A C$, $A D$, $B D$, $B E$ and $C E$). We will call an envelope with such properties a Heron envelope.\
+Let $S(p)$ be the sum of the perimeters of all Heron envelopes with a perimeter less than or equal to $p$.\
+We are given: $S(500) = 488$, $S(1000) = 5386$, $S(1500) = 11 thin 460$, $S(2000) = 25 thin 282$ and $S(2500) = 43 thin 864$.
+
+*What is the value of $S(25 thin 000)$?*
+
+_(Proposed by David Draï, inspired by Project Euler 583)_
+]
+
+
+#problem-block(number: 226, title: [Cubes and factorials], level: 4)[
+$6$ cubes divide $3! times 5! times 7!$: $1, 8, 27, 64, 216, 1728$.
+
+*How many cubes divide $n = 3! times 5! times 7! times 9! times dots.c times 4999!$ ?*
+
+We will take the twelve digits before the zeros that end the number $n$.
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 227, title: [Distinct differences], level: 3)[
+Consider a grid with $3$ rows and $13$ columns.\
+In the first row, the integers from $1$ to $13$ are arranged in ascending order.\
+In the second row, these same integers are arranged in any order.\
+In the third row, write the absolute value of the difference between the two integers in each column.\
+Let $N$ be the number of ways to fill the second row so that $13$ distinct integers appear in the third row.\
+Let $N(k)$ be the number of solutions for which the integer $k$ in the first and second rows appear in the same column.\
+Thus, $N$ is equal to the sum of $N(k)$ for $k$ ranging from $1$ to $13$.
+
+*What is the sum of $k times N(k)$ for $k$ ranging from $1$ to $13$?*
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 228, title: [Hyperball], level: 3)[
+Let $T(r)$ be the number of quadruplets of integers $(x, y, z, t)$ such that: $x^2 + y^2 + z^2 + t^2 <= r^2$.\
+In other words, $T(r)$ is the number of points with integer coordinates contained in a $4$-dimensional hyperball with radius $r$.\
+Given that: $T(0) = 1$, $T(1) = 9$, $T(2) = 89$, $T(5) = 3121$ and $T(100) = 493 thin 490 thin 641$.
+
+*What is the value of T(500)?*
+
+_(Proposed by David Draï, based on Project Euler 596)_
+]
+
+
+#problem-block(number: 229, title: [Folding the corners], level: 5)[
+$a$ and $b$ are two non-zero natural numbers such that $a < 2b$.\
+Let's fold the corners of the rectangle in the figure on the left so that the two lower vertices coincide. This gives us the figure on the right.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 300pt, "../figures/pliage.jpg")
+  #v(0.5em)
+]
+
+*How many pairs of integers $(a, b)$ exist with $b <= 10^6$, such that $x$ is also an integer?*
+
+_(Proposed by David Draï, freely inspired by the July 27th puzzle from the 2017 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 230, title: [Random sort], level: 4)[
+A deck of $n$ cards, numbered from $1$ to $n$, is shuffled randomly so that each permutation is equally likely. These cards must be sorted in ascending order using the following technique:
+
++ We observe the sequence of cards. If it is already sorted, then there is no need to continue the action. Otherwise, if there are sequences of cards arranged in ascending order without any "gaps", then these sequences form groups of cards that are stapled together.\ For example, with $7$ cards initially in the order $4 med 1 med 2 med 3 med 7 med 5 med 6$, cards $1$, $2$ and $3$ will be stapled together, as will cards $5$ and $6$ (this gives us a group of 3 cards, a group of $2$ cards, and $2$ isolated cards).
++ The cards are then "shuffled" by throwing them into the air (the stapled cards obviously remain together). The cards (or stapled card packs) are then picked up at random. We assume that all possible picks are equally likely, despite the fact that some cards are alone and others are grouped together.
++ Steps 1 and 2 are repeated until all the cards are sorted.
+
+Let $S(n)$ be the average number of tosses required to sort all the cards (this is therefore an expectation). Since the order is checked before the first toss, we have $S(1) = 0$.\
+We also give $S(2) = 1$, $S(3) = 7\/3$, $S(4) = 47\/13$ and $S(5) = 4213\/871$.
+
+*What is the value of $S(10)$?* Enter the first $11$ digits of the answer, omitting the decimal point.
+
+_(Proposed by David Draï, based on Project Euler 595)_
+]
+
+
+#problem-block(number: 231, title: [Greatest proper divisor], level: 4)[
+Let $F$ be the function that, for any strictly positive integer $n$, associates the number of integers $p$ whose greatest proper divisor (i.e., distinct from $p$) is $n$.\
+For example, $F(7) = 4$, because $7$ is the greatest proper divisor of $14$, $21$, $35$ and $49$.\
+We also have $F(2017) = 306$.
+
+*What is the sum of $F(n)$ for $n$ ranging from $2$ to $1$ million?*
+
+_(Proposed by David Draï, freely inspired by the January 9th problem from the 2017 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 232, title: [Sums of consecutive odd numbers], level: 4)[
+Let $F$ be the function that, for any strictly positive integer $n$, associates the number of ways to write $n$ as the sum of at least two strictly positive consecutive odd integers.
+
+Examples:
+
+- $F(64) = 3$ because $64 = 31 + 33 = 13 + 15 + 17 + 19 = 1 + 3 + dots.c + 15$
+- $F(360) = 6$
+- $F(4725) = 11$.
+
+*What is the sum of $F(n)$ for $n$ ranging from $1$ to $1$ million?*
+
+_(Proposed by David Draï, freely inspired by the January 2nd problem from the 2017 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 233, title: [Quadrilateral with maximum area], level: 5)[
+Let $F$ be the function that, for any triplet of integers $(a, b, p)$, associates the maximum area of a quadrilateral with diagonals of length $a$ and $b$ and perimeter $p$, where $0 < b <= a$ and $2a < p < a+b+sqrt(a^2+b^2)$ #text(fill: sec-color)[\*].
+
+Here are some values of $F$:
+$
+&F(3, 1, 7) = 3\/2,\
+&F(3, 2, 7) = sqrt(429) \/ 8,\
+&F(3, 2, 8) = 3,\
+&F(14, 11, 32) = 45,\
+&F(19, 14, 42) = 70,\
+&F(24, 15, 50) = 70.
+$
+
+*What is the sum of all distinct integer values of $F$ obtained with: $1000 <= b < a <= 1200$, $2400 < p <= 2800$ and $op("GCD")(a, b, p) = 1$?*
+
+#text(fill: sec-color)[\*] Beyond this value (i.e., for $a+b+sqrt(a^2+b^2) < p <= 2(a+b)$, the limit value for the perimeter of a quadrilateral with given diagonals $a$ and $b$), the function $F$ is ill-defined because the maximum area is then obtained for limit configurations where the quadrilateral becomes a triangle, with the diagonals having a common endpoint.
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 234, title: [Number of divisors], level: 4)[
+Let $D(x)$ be the number of divisors of $x$. Let F be the function that, for any non-zero natural number $n$, associates:
+- the smallest natural number $x$ such that $D(x^2)\/D(x) = n$, if this $x$ exists;
+- $0$ otherwise.
+
+*Example: $F(3)$*\
+$144$ has $15$ divisors, while $144^2$ has $45$, and $45\/15 = 3$. Since $144$ is the smallest integer with this property, $F(3)=144$.
+
+*What is the sum of $F(n)$ for $n$ ranging from $1$ to $22$?* Enter the twelve digits on the rightmost of the result.
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 235, title: [Hitori], level: 5)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 10pt,
+    [
+    *Rules of the game*
+
+    Blacken certain squares in the grid so that:
+    - in each row and column, the remaining letters are all different;
+    - two squares adjacent on one side cannot both be blackened;
+    - the remaining squares must form a single block.
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 150pt, "../figures/Hitori1.png")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+Solve this grid:
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 240pt, "../figures/Hitori2.png")
+  #v(0.5em)
+]
+
+Going through the grid from left to right and top to bottom, we assign the $k$-th prime number to box $k$ (so the top right corner has the number $p_8 = 19$ and the bottom right corner has the number $p_64 = 311$).\
+*What is the product of the shaded boxes? Enter the result modulo $10^13$.*
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 236, title: [Star system], level: 3)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 10pt,
+    [
+    *Rules of the game*
+
+    Find the position of the stars.
+    - There is one star per row, per column, and per region outlined by a thicker line.
+    - Furthermore, the stars do not touch each other, even diagonally.
+    - The waves indicate squares that do not contain a star.
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 180pt, "../figures/star1.png")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+Solve this grid:
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 240pt, "../figures/star2.png")
+  #v(0.5em)
+]
+
+Going through the grid from left to right and top to bottom, we assign the $k$-th prime number to box $k$ (so the top right corner has the number $p_8 = 19$ and the bottom right corner has the number $p_64 = 311$).\
+*What is the product of the boxes containing stars?*
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 237, title: [Sandwich numbers], level: 2)[
+A "sandwich" number is a number with $3n$ digits whose middle section (the number written with the $n$ middle digits) is equal to the sum of the first section (the number written with the first $n$ digits) and the last section (the number written with the last $n$ digits).
+
+For example, $203818$ is a sandwich number because $20 + 18 = 38$.
+
+*What is the smallest sandwich number that is a multiple of $2018$ and contains the sequence of consecutive digits $2$, $0$, $1$, $8$?* ($203818$ is not suitable because $2$, $0$, $1$ and $8$ are not consecutive).
+
+_(Proposed by Le Coyote, based on a problem by Raymond Bloch in Tangente no. 179, p.49)_
+]
+
+
+#problem-block(number: 238, title: [Barrier of indivisibility], level: 5)[
+For any positive integer $n$, we define the function $F$ by $F(n)=k$ where $k$ is the smallest positive integer such that $n + k$ is not divisible by $k + 1$.
+
+Examples
++ $13$ is divisible by $1$, $14$ is divisible by $2$, $15$ is divisible by $3$, $16$ is divisible by $4$, but $17$ is NOT divisible by $5$. Therefore, $F(13) = 4$.
++ $120$ is divisible by $1$, but $121$ is NOT divisible by $2$. Therefore, $F(120) = 1$.
+
+We define $P(s, N)$ as the number of integers $n$ ($1 < n < N$) for which $F(n) = s$.\
+Thus $P(3, 14) = 1$ and $P(6, 10^6) = 14286$.
+
+*What is the sum, for $i$ ranging from $1$ to $1000$, of $P(i, 10^i)$?* Enter the last $12$ digits of the result.
+
+_(Proposed by David Draï, based on Project Euler 601)_
+]
+
+
+#problem-block(number: 239, title: [Factorial decomposition], level: 4)[
+Consider the number $48$.\
+There are five pairs of integers $a$ and $b$ ($a <= b$) such that $a times b = 48$: $(1, 48)$, $(2, 24)$, $(3, 16)$, $(4, 12)$ and $(6, 8)$.\
+We can see that $6$ and $8$ each have $4$ divisors. Therefore, among the five pairs, one of them is composed of two integers with the same number of divisors.\
+Let $C(n)$ be the number of pairs of positive integers $a$ and $b$ such that $a times b = n$, $a <= b$, and such that $a$ and $b$ have the same number of divisors.\
+Thus $C(48) = 1$.
+
+We also have:\
+$C(9!)= 5$: $(384, 945)$, $(420, 864)$, $(480, 756)$, $(540, 672)$ and $(560, 648)$.\
+$C(10!) = 3$: $(1680, 2160)$, $(1800, 2016)$ and $(1890, 1920)$.
+
+*What is the value of $C(40!)$?*
+
+_(Proposed by David Draï, based on Project Euler 598)_
+]
+
+
+#problem-block(number: 240, title: [Equiangular hexagons], level: 5)[
+Let $H(n)$ be the number of distinct convex equiangular hexagons with integer sides and a perimeter less than or equal to $n$.\
+Two hexagons are distinct if and only if they are not isometric.\
+We are given: $H(6) = 1$, $H(12) = 10$, $H(100) = 31 thin 248$.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 300pt, "../figures/hexaangles.png")
+  Equiangular hexagons with a perimeter less than or equal to 12
+  #v(0.5em)
+]
+
+*What is the value of $H(300)$?*
+
+_(Proposed by David Draï, based on Project Euler 600)_
+]
+
+
+#problem-block(number: 241, title: [The bags of counterfeit coins], level: 5)[
+Among eight bags, numbered from $1$ to $8$ and each containing $100$ coins, six contain gold coins (a real gold coin weighs $10$ grams) and two contain counterfeit coins, indistinguishable from the real ones except by their weight.\
+The counterfeit coins in one of the bags weigh $11$ grams each, and the counterfeit coins in the other bag weigh $12$ grams.\
+You have a graduated scale that can weigh any mass up to $10$ kg to the nearest gram.
+
+You must find, in a single weighing, and by taking the minimum number of coins from the bags, which bag contains the $11$-gram coins and which bag contains the $12$-gram coins.
+
+*What will be the sum, in grams, of the $56$ distinct masses that can be read on the scale?*
+
+_(Proposed by David Draï, based on a problem from "Algorithmes, jeux et stratégies" by Élisabeth Busser and Gilles Cohen, Éditions Pole, 2013)_
+]
+
+
+#problem-block(number: 242, title: [Mirror, my beautiful mirror], level: 5)[
+Let mirror be the function that, for any positive integer $n$, associates the number obtained by reading $n$ from right to left.
+
+Examples: $op("mirror")(12) = 21$; $op("mirror")(340) = 43$.
+
+Let $n$ be a positive integer with $k$ digits ($k > 1$).\
+Let $F$ be the function that, for any $n$, associates the number of integers $p_i$ with $k$ digits such that $p_i + n = op("mirror")(p_i)$.
+
+Examples
++ $36$ is a $2$-digit number.\ $F(36) = 5$ because there are only $5$ two-digit integers such that $p_i + 36 = op("mirror")(p_i)$: $15$, $26$, $37$, $48$ and $59$.\ Indeed: $15 + 36 = 51$; $26 + 36 = 62$; ... ; $59 + 36 = 95$.
++ However, $F(37) = 0$.
+
+*What is the sum of $F(n)$ for $n$ ranging from $10$ to $10^12$?*
+
+_(Proposed by David Draï, freely inspired by the April 25th puzzle from the 2017 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 243, title: [For the $n$-th time!], bm-title: [For the n-th time!], level: 5)[
+Let $n$ be a strictly positive integer with p digits.\
+Let $F$ be the function that, for any $n$, associates the number obtained by the following process: starting from $n$, we write $p$ numbers, such that each of them is the sum of the $p$-th powers of the digits of the previous one.
+
+Example: $213 -> 2^3+1^3+3^3 = 36 -> 3^3+6^3 = 243 -> 2^3+4^3+3^3 = 99$. Thus, $F(213) = 99$.
+
+Let $G$ be the function that, for any strictly positive integer $p$, associates the largest value of $F(n)$ obtained when $n$ describes the set of $p$-digit integers.
+
+Examples:\
+$G(1) = 9$, because $F(9) = 91 = 9$.\
+$G(2) = 145$, because $F(58) = F(77) = F(85) = 145$.\
+Indeed, $58$ and $85$ give $5^2+8^2 = 89$ and $77$ gives $7^2+7^2 = 98$ after one iteration.\
+And since it is impossible to obtain $99$ after one iteration from a $2$-digit integer, $8^2+9^2 = 145$ is indeed the largest integer that can be obtained in the second iteration from a $2$-digit number.
+
+Let $H$ be the function that, for any strictly positive integer $p$, associates the smallest $p$-digit antecedent of $G(p)$ with $F$.
+
+Examples: $H(1) = 9$ and $H(2) = 58$.
+
+*What are the sums of $G(p)$ and $H(p)$ for $p$ ranging from $1$ to $11$?* Enter the sum of the two results.
+
+_(Proposed by David Draï, freely inspired by the May 8th puzzle from the 2017 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 244, title: [Sum of cubes], level: 2)[
+Choose a number, calculate the sum of the cubes of its digits, and write down the result, which will be the second number. Repeat the same operation with this second number and continue until you come across a number that has already been written down.
+
+*Examples*\
+Starting with $1$: $1$ $1$ (sequence length $2$)\
+Starting with $2$: $2$ $8$ $512$ $134$ $92$ $737$ $713$ $371$ $371$ (sequence length $9$)\
+Starting with $2029$: $2029$ $745$ $532$ $160$ $217$ $352$ $160$ (sequence length $7$)
+
+*What is the smallest number less than $1$ million that produces the longest sequence?*
+
+_(Proposed by Le Coyote. Inspired by a problem from the quarterfinals of the 32nd Mathematical and Logic Games Championship)_
+]
+
+
+#problem-block(number: 245, title: [Marsh], level: 5)[
+Frodo and Sam must travel $100$ leagues eastward to get from point $A$ to point $B$.\
+On normal terrain, they can cover $10$ leagues per day; under these conditions, the journey would therefore take $10$ days.\
+But their path is crossed by a long marsh that stretches exactly from southwest to northeast, and walking through this marsh will slow them down.\
+The swamp is $50$ leagues wide at all points, and the middle of segment $[A B]$ is located in the middle of the swamp (i.e., $25$ leagues from each "shore").\
+Here is a map of the region:
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 260pt, "../figures/carte.jpg")
+  #v(0.5em)
+]
+
+The swamp consists of five distinct regions, each $10$ leagues wide, as shown by the different colors on the map.\
+The strip closest to point $A$ is a relatively easy swamp; it can be crossed at a speed of $9$ leagues per day.\
+However, each strip becomes progressively more difficult to negotiate, with speeds decreasing successively to $8$, $7$, $6$ and finally $5$ leagues per day for the last region of the swamp.\
+Then the marsh ends abruptly and the terrain returns to normal, with a speed of $10$ leagues per day.\
+If Frodo and Sam were to travel in a straight line eastward from $A$ to $B$, they would travel exactly $100$ leagues, and the journey would take approximately $13.4738$ days.
+However, this time can be reduced if they agree to deviate from the "straight path".
+
+*Determine the shortest possible time to travel from $A$ to $B$.*
+
+Give your answer in days, rounded to $10$ decimal places. The decimal point should be omitted.
+
+_(Project Euler 607)_
+]
+
+
+#problem-block(number: 246, title: [Convex path], level: 5)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 10pt,
+    [
+    Let $F(N)$ be the maximum number of grid nodes in an $N times N$ square through which the graph of a strictly increasing and strictly convex function can pass.
+
+    The figure shows the graphical representation of a function passing through $3$ nodes in a $3 times 3$ square.
+
+    We are given $F(1) = 2$, $F(3) = 3$ (figure opposite), $F(9) = 6$, $F(11) = 7$, $F(100) = 30$ and $F(50 thin 000) = 1898$.
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 150pt, "../figures/convexe.png")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+*What is the value of $F(10^18)$?*
+
+_(Proposed by David Draï. Project Euler 604)_
+]
+
+
+#problem-block(number: 247, title: [Covering trees], level: 5)[
+#align(center)[
+  #v(0.5em)
+  #grid(
+    align: left + horizon,
+    columns: (auto,)*2,
+    column-gutter: 10pt,
+    [
+    A grid of six squares is drawn with black outline strokes.\
+    You want to highlight certain edges in red so that any vertex of the squares that make up the grid can be connected to any other vertex in a single way by following a red line.
+
+    *1. How many different ways can the red lines be drawn?*
+
+    The drawing opposite shows the $15$ ways to color a two-by-two grid.
+
+    *2. Same question with a two-by-two grid.*
+
+    The answer should be the product of the two results.
+    ],
+    [
+    #align(center)[
+      #v(0.5em)
+      #image(width: 180pt, "../figures/arbres.jpg")
+      #v(0.5em)
+    ]
+    ]
+  )
+  #v(0.5em)
+]
+
+_(Proposed by David Draï. Affaire de logique --- Problem 1004)_
+]
+
+
+#problem-block(number: 248, title: [Moving target], level: 5)[
+On a grid of $n$ squares by $1$, a red target is placed randomly on one of the squares with the same red background. The target is therefore invisible.\
+After each shot, the target moves randomly to an adjacent square.\
+The shooter is an expert who never misses the target square, *and adopts a strategy that minimizes the maximum number of shots, which we will denote by $C(n)$*. (Note: this strategy does not necessarily minimize the expected value!)\
+If the target is hit, the square changes color and the target becomes visible, signaling to the shooter that they have hit it and that the game is over.\
+Let $E(n)$ be the average number of shots needed to hit the target.
+
+Given that $E(1)=1$, $E(2)=E(3)=3\/2$, $E(4)=37\/16$ and $E(5)=19\/6$.
+
+*What is the value of $E(10)$?*
+
+Enter the product of the numerator and denominator of the irreducible fraction obtained.
+
+*Note:* the calculation of $E(n)$ will be based solely on all possible paths of the target comprising exactly $C(n)$ movements, as if the target always moved $C(n)$ times, whether it was hit or not.
+
+_(Proposed by David Draï. Inspired by Problem 1024 "Cibles mouvantes" from "Affaire de logique")_
+]
+
+
+#problem-block(number: 249, title: [$99$ times larger], bm-title: [99 times larger], level: 5)[
+Let $E$ be the set of natural integers $n$ satisfying the following property:
+
+#align(center)[
+If we write a $1$ to the left and a $1$ to the right of $n$, we obtain the number $99 times n$.
+]
+
+The set $E$ seems to have the following two properties (verified for all $n$ in $E$ less than $10^2500$ ...):
+
++ all elements of $E$ are congruent to $A$ modulo $10^P$ (where $P$ is the largest integer for which this property remains true);
++ the numbers of digits of the elements of $E$ form an arithmetic sequence with common difference $R$ and first term $U$.
+
+*What is the value of $A times P times R times U$?*
+
+Enter the last $12$ digits of the result.
+
+_(Proposed by David Draï. Based on "Affaire de logique" --- Problem 1018)_
+]
+
+
+#problem-block(number: 250, title: [Flowers with pentagonal petals], level: 5)[
+Consider $n$ polygons with $n$ sides, arranged in a star shape, with a common vertex, as shown in the figures below.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 350pt, "../figures/fleurs.jpg")
+  #v(0.5em)
+]
+
++ When $n = 3$, the integers from $1$ to $7$ can be placed in the circles in $144$ different ways so that the sums of the numbers at the vertices of the three triangles are equal;
++ In the case where $n = 4$, the integers from $1$ to $13$ can be placed in $311 thin 040$ different ways so that the sums of the numbers at the vertices of the four quadrilaterals are equal.
+
+*When $n = 5$, how many different ways can the integers from $1$ to $21$ be placed so that the sums of the numbers at the vertices of the five pentagons are equal?*
+
+_(Proposed by David Draï. Inspired by the May 24th puzzle from the 2017 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 251, title: [Neighbors], level: 5)[
+The numbers $1$ to $25$ are placed in a square grid so that each number, except $1$ and $2$, is the sum of two of its neighbors (in the grid below, $1$ has eight neighbors).
+
+*Example*
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 150pt, "../figures/voisins.jpg")
+  #v(0.5em)
+]
+
+It turns out that the number $18$ is the only number that, when placed in the center of the grid, allows for a unique filling, except for symmetries and rotations.\
+Thus, entering an additional value in a cell breaks any symmetry and ensures the uniqueness of the grid.
+
+We place $18$ in the center and $7$ in cell A2. We number the cells from left to right and top to bottom from $1$ to $25$.
+
+*What is the sum of the $25$ products "number in a cell $times$ cell number"?*
+
+_(Proposed by David Draï)_
+]
+
+
+#problem-block(number: 252, title: [On the tiles, the chord...], level: 5)[
+Let $a$, $b$ and $c$ be three strictly positive integers such that $a > b > c$.\
+A rectangular piece measuring $a$ cm in length and $b$ cm in width is tiled with squares measuring $c$ cm on each side.\
+A straight chord connects two opposite corners of the piece, as shown in the figure below. Any cuts are always along the bottom and/or right side of the figure.
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 220pt, "../figures/pave.jpg")
+  #v(0.5em)
+]
+
+Let $F(a, b, c)$ be the number of tiles that the chord crosses.\
+For example: $F(23, 16, 5) = 8$ and $F(4500, 2400, 30) = 220$.
+
+*What is the sum of $F(a, b, c)$ for $4400 <= a <= 4600$, $2300 <= b <= 2500$ and $10 <= c <= 60$?*
+
+_(Proposed by David Draï. Freely inspired by the July 27th puzzle from the 2017 Mathematical Calendar)_
+]
+
+
+#problem-block(number: 253, title: [Paper clips], level: 5)[
+A stationer has chains of paper clips attached to each other.\
+During a "manipulation", he detaches a paper clip at both ends and obtains that paper clip as well as two new smaller chains. A manipulation cannot involve a paper clip at the end of a chain.
+
+*1. What is the longest initial chain that allows the stationer, in $10$ manipulations performed beforehand, to provide a customer with any number of paper clips between $1$ and the length of the chain, without having to perform any additional manipulations in front of them, but simply by combining a certain number of the sub-chains obtained?*
+
+The stationer receives a chain made up of $10 thin 000$ paper clips in three different colors: the first is red, the second blue, and the third green. He notices that by removing one in four paper clips (starting with the fourth: the $4$th, the $8$th, the $12$th, etc.), the sequence of the $2500$ paper clips removed is identical to the sequence of the first $2500$ paper clips in the initial chain, and the sequence of the remaining $7500$ is identical to that of the first $7500$ paper clips in the initial chain.
+
+*2. How many red, blue and green paper clips are there in the chain?*
+
+Enter the sum of the result of *1* and the product of the $3$ results of *2*.
+
+(Proposed by David Draï, based on Affaire de logique --- Problem 1009)
+]
+
+
+#problem-block(number: 254, title: [Flawless rectangles], level: 5)[
+When covering an entire rectangle with whole sides and an even area with $2 times 1$ dominoes, a "flaw" may occur, i.e., a line of division crossing the rectangle from side to side, horizontally or vertically.
+#footnote(["faille" means "flaw"; "recouvrement sans faille" means "flawless covering".])
+
+#align(center)[
+  #v(0.5em)
+  #image(width: 400pt, "../figures/faille.jpg")
+  #v(0.5em)
+]
+
+Let $A$ be the total number of possible coverings of a rectangle measuring $8 times 5$.\
+Let $B$ be the number of flawless coverings of this rectangle.
+
+*What is the value of $A times B$?*
+
+_(Proposed by David Draï. Inspired by Problem 6 of the Mathematical Games of "Monde", February 25th, 1997)_
+]
+
+
+#problem-block(number: 255, title: [Self-referential table], level: 4)[
+#align(center)[
+  #v(0.5em)
+  #table(align: center + horizon, columns: 260pt, inset: 5pt, stroke: 2pt)[
+  #table(
+    align: left,
+    columns: 250pt,
+    inset: (x: 6pt, y: 12pt),
+    stroke: 2pt
+  )[
+    In this context,\
+    #h(0.5em)\-#h(0.5em) there are ... times the number 9 outside of line 1;\
+    #h(0.5em)\-#h(0.5em) there are ... times the number 8 outside of line 2;\
+    #h(0.5em)\-#h(0.5em) there are ... times the number 7 outside of line 3;\
+    #h(0.5em)\-#h(0.5em) there are ... times the number 6 outside of line 4;\
+    #h(0.5em)\-#h(0.5em) there are ... times the number 5 outside of line 5;\
+    #h(0.5em)\-#h(0.5em) there are ... times the number 4 outside of line 6;\
+    #h(0.5em)\-#h(0.5em) there are ... times the number 3 outside of line 7;\
+    #h(0.5em)\-#h(0.5em) there are ... times the number 2 outside of line 8;\
+    #h(0.5em)\-#h(0.5em) there are ... times the number 1 outside of line 9.
+  ]
+  ]
+  #v(0.5em)
+]
+
+*Fill in the "blanks" with numbers (between $0$ and $9$) so that all the statements are true.*\
+Enter the number obtained by concatenating the $9$ digits read from top to bottom.
+
+_(Proposed by David Draï. Inspired by Problem 3 of the Mathematical Games of "Monde", February 4th, 1997)_
+]
+
+
+#problem-block(number: 256, title: [Postman always rings twice], level: 5)[
+Let $A = {a_1, a_2, dots, a_n}$ be the largest subset of the set $E = {2, 3, 4, dots, N-1}$ such that:
+
+- the product $P$ of the factorials of all $a_k$ by the factorial of $N$ is a square;
+- $P$ is as large as possible.
+
+*What is the value of $P$ if $N = 99$?* Enter the ten digits before the zeros that end the decimal representation of $P$.
+
+_(Proposed by David Draï. Inspired by Problem 1028 from the Mathematical Games of "Monde")_
+]
