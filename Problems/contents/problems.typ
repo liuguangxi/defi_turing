@@ -146,7 +146,7 @@ By repeating the operation, we obtain a sequence of positive integers, each of w
 
 There is a conjecture that says that the Syracuse sequence of any strictly positive integer reaches $1$.
 
-For example, starting from 14, we construct the sequence of numbers: $14$, $7$, $22$, $11$, $34$, $17$, $52$, $26$, $13$, $40$, $20$, $10$, $5$, $16$, $8$, $4$, $2$, $1$. This is called the Syracuse sequence of the number $14$. Here, it has a length of $18$.
+For example, starting from $14$, we construct the sequence of numbers: $14$, $7$, $22$, $11$, $34$, $17$, $52$, $26$, $13$, $40$, $20$, $10$, $5$, $16$, $8$, $4$, $2$, $1$. This is called the Syracuse sequence of the number $14$. Here, it has a length of $18$.
 
 *For what starting number less than $1 thin 500 thin 000$ do we obtain the longest Syracuse sequence?* There are two solutions, give the smallest one.
 
@@ -443,8 +443,8 @@ $145$ is a curious number. Indeed, $1! + 4! + 5! = 1 + 24 + 120 = 145$.
 *Find the product of all numbers that are equal to the sum of the factorial of their digits.*
 
 *Notes:*\
-1! = 1 and 2! = 2 are not sums and will not be included in the product.\
-Remember that 0! = 1.
+$1! = 1$ and $2! = 2$ are not sums and will not be included in the product.\
+Remember that $0! = 1$.
 
 _(Inspired by problem 34 of Project Euler)_
 ]
@@ -557,7 +557,6 @@ _(Proposed by Le Coyote)_
 
 
 #problem-block(number: 44, title: [Pentagon numbers], level: 3)[
-
 Pentagonal numbers follow the formula $P_n=n(3n-1)\/2$. The first ten pentagonal numbers are:
 $ 1, 5, 12, 22, 35, 51, 70, 92, 117, 145, dots $
 
@@ -570,7 +569,6 @@ _(Inspired by problem 44 of Project Euler)_
 
 
 #problem-block(number: 45, title: [Triangular, pentagonal, and hexagonal], level: 2)[
-
 Triangular, pentagonal, and hexagonal numbers follow these formulas:
 
 Triangular #h(1em) $T_n=n(n+1)\/2: 1, 3, 6, 10, 15, dots$\
@@ -635,8 +633,8 @@ _(Inspired by problem 48 of Project Euler)_
 
 #problem-block(number: 49, title: [A very special arithmetic progression...], level: 4)[
 The arithmetic progression $1487$, $4817$, $8147$, with a common difference of $3330$, is special for two reasons:
-+ all 3 terms are prime;
-+ all 3 terms are composed of the same digits
++ all $3$ terms are prime;
++ all $3$ terms are composed of the same digits
 
 *There is only one other arithmetic progression of $4$-digit numbers with the same properties. Which one?*\
 Give the first term multiplied by the common difference as your answer.
@@ -678,7 +676,7 @@ _(Proposed by Marie-Pierre Falissard)_
 
 
 #problem-block(number: 52, title: [Multiples contain the same digits], level: 3)[
-We can see that the number $125874$ and its double $251748$ contain  the same digits, but in a different order.
+We can see that the number $125874$ and its double $251748$ contain the same digits, but in a different order.
 
 *Find the smallest positive integer $n$ such that $n$, $2n$, $3n$, $4n$, $5n$ and $6n$ contain the same digits.*
 
@@ -687,7 +685,7 @@ _(Inspired by problem 52 of Project Euler)_
 
 
 #problem-block(number: 53, title: [Grid of sums], level: 3)[
-Consider a square grid with $3$ rows and $3$ columns. We want to fill this grid with whole numbers. To start with, we place the number $20$ in one cell and the number 13 in another. The other cells are filled in one after the other, in an order to be defined. The number placed in a square must be the sum of the numbers in the surrounding squares (i.e., the squares that touch the square to be filled on one side or corner). The largest number placed is called the grid's filling number.
+Consider a square grid with $3$ rows and $3$ columns. We want to fill this grid with whole numbers. To start with, we place the number $20$ in one cell and the number $13$ in another. The other cells are filled in one after the other, in an order to be defined. The number placed in a square must be the sum of the numbers in the surrounding squares (i.e., the squares that touch the square to be filled on one side or corner). The largest number placed is called the grid's filling number.
 
 Where should the two starting numbers be placed, and in what order should the grid boxes be filled to obtain the largest possible filling number?
 
@@ -724,7 +722,7 @@ _(Inspired by problem 55 of Project Euler)_
 #problem-block(number: 56, title: [Maximum sum of digits of a power], level: 2)[
 A gogol ($10^100$) is an enormous number: $1$ followed by $100$ zeros. However, the sum of its digits is only $1$.
 
-*Considering natural numbers of the form ab, where $a<250$ and $b<250$, what is the maximum sum of digits that can be obtained?*
+*Considering natural numbers of the form $a^b$, where $a<250$ and $b<250$, what is the maximum sum of digits that can be obtained?*
 
 _(Inspired by problem 56 of Project Euler)_
 ]
@@ -732,7 +730,6 @@ _(Inspired by problem 56 of Project Euler)_
 
 #problem-block(number: 57, title: [Continued fraction], level: 2)[
 The square root of two can be represented by a continued fraction:
-
 $ sqrt(2) = 1 + display(1/(2 + display(1/(2 + display(1/(2 + dots.c)))))) $
 
 The first four iterations give:
@@ -743,7 +740,7 @@ $
 &1 + 1\/(2 + 1\/(2 + 1\/(2 + 1\/2))) = 41\/29 = 1.41379 dots.c
 $
 
-The next three fractions are $99\/70$, $239\/169$, and $577\/408$. The eighth fraction, 1393/985, is the first one where the numerator has more digits than the denominator.
+The next three fractions are $99\/70$, $239\/169$, and $577\/408$. The eighth fraction, $1393\/985$, is the first one where the numerator has more digits than the denominator.
 
 *Among the first $10 thin 000$ fractions, how many have a numerator with more digits than the denominator?*
 
