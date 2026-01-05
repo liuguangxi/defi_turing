@@ -1082,7 +1082,6 @@ _(Puzzle 68 from the book "70 énigmes corrigées pour lycéens et plus, tome 1"
 
 
 #problem-block(number: 80, title: [Consecutive years with the same number of divisors], level: 3)[
-
 The year $2014$ has a special feature: it has the same number of divisors as the previous year ($2013$) and the following year ($2015$).
 
 *How many years between $1$ and $3000$ (excluding these two years) have this feature?*
@@ -1696,7 +1695,7 @@ To create a magic square, fill in the nine boxes in the square below with the nu
 
 $9+1+2+7 = 1+8+7+3 = 2+7+6+4 = 7+3+4+5 = 19$.
 
-*How many magic squares are there (ignoring symmetries)?*
+*How many magic squares are there (not counting symmetries)?*
 
 _(Proposed by Le Coyote)_
 ]
@@ -1729,7 +1728,7 @@ _(Based on problem 15 in the book "Le jardin du Sphinx" by Pierre Berloquin)_
 
 
 #problem-block(number: 123, title: [Antimagic squares], level: 3)[
-In an antimagic square, the sums of the rows, columns, and diagonals must not only all be different, as in a heterogeneous square (see problem $122$). The sums must also be consecutive, for example from $29$ to $38$.\
+In an antimagic square, the sums of the rows, columns, and diagonals must not only all be different, as in a heterogeneous square (see problem 122). The sums must also be consecutive, for example from $29$ to $38$.\
 There are no antimagic squares of order $1$, $2$ or $3$.
 
 *How many antimagic squares are there that complete the partially filled square below?*
@@ -1791,7 +1790,7 @@ $1 + 2 + 3 + 4 + 5 + 6 + 8 + 10 + 12 + 15 + 20 + 24 + 30 + 40 + 60 = 240$.
 
 Similarly, he uses the term "subtriple" to refer to an integer whose sum of proper divisors is equal to three times that number.
 
-*Give the sum of the subtriples less than 100 thin 000.*
+*Give the sum of the subtriples less than $100 thin 000$.*
 
 _(Proposed by Le Coyote)_
 ]
@@ -2653,7 +2652,7 @@ _(Problem 145 of Project Euler)_
 
 
 #problem-block(number: 183, title: [All $7$s], bm-title: [All 7s], level: 3)[
-This division is correct. All the $7$s that appear are given. All other numbers have been erased.
+This division is accurate #footnote([The remainder is $0$.]). All the $7$s that appear are given. All other numbers have been erased.
 
 #align(center)[
   #v(0.5em)
@@ -2967,7 +2966,7 @@ Similarly, $21$ squares can be formed with this cross with side length $2$.
 
 To the side length $n$ of the cross, we associate the number of squares $C(n)$ that can be formed using the points of the cross as vertices. Thus, $C(1) = 1$ and $C(2) = 21$.
 
-*What is the sum of the $C(n)$ for n ranging from $1$ to $20$?*
+*What is the sum of the $C(n)$ for $n$ ranging from $1$ to $20$?*
 
 _(Proposed by David Draï, based on the April 8th Problem from the 2014 Mathematical Calendar)_
 ]
@@ -3215,7 +3214,7 @@ _(Proposed by Le Coyote)_
 
 
 #problem-block(number: 218, title: [$2017$], bm-title: [2017], level: 3)[
-We are looking for integers whose square root has the digits $2017$ (in that order) as the first digits after the decimal point. For example, the square root of $10 thin 858$ is $104.2017274 dots.c$
+We are looking for integers whose square root has the digits $2017$ (in that order) as the first digits after the decimal point. For example, the square root of $10 thin 858$ is $104.bold(2017)274 dots.c$
 
 *How many integers between $1$ and $10^10$ satisfy this condition?*
 
@@ -3362,7 +3361,7 @@ Let $T(r)$ be the number of quadruplets of integers $(x, y, z, t)$ such that: $x
 In other words, $T(r)$ is the number of points with integer coordinates contained in a $4$-dimensional hyperball with radius $r$.\
 Given that: $T(0) = 1$, $T(1) = 9$, $T(2) = 89$, $T(5) = 3121$ and $T(100) = 493 thin 490 thin 641$.
 
-*What is the value of T(500)?*
+*What is the value of $T(500)$?*
 
 _(Proposed by David Draï, based on Project Euler 596)_
 ]
@@ -3387,7 +3386,7 @@ _(Proposed by David Draï, freely inspired by the July 27th puzzle from the 2017
 #problem-block(number: 230, title: [Random sort], level: 4)[
 A deck of $n$ cards, numbered from $1$ to $n$, is shuffled randomly so that each permutation is equally likely. These cards must be sorted in ascending order using the following technique:
 
-+ We observe the sequence of cards. If it is already sorted, then there is no need to continue the action. Otherwise, if there are sequences of cards arranged in ascending order without any "gaps", then these sequences form groups of cards that are stapled together.\ For example, with $7$ cards initially in the order $4 med 1 med 2 med 3 med 7 med 5 med 6$, cards $1$, $2$ and $3$ will be stapled together, as will cards $5$ and $6$ (this gives us a group of 3 cards, a group of $2$ cards, and $2$ isolated cards).
++ We observe the sequence of cards. If it is already sorted, then there is no need to continue the action. Otherwise, if there are sequences of cards arranged in ascending order without any "gaps", then these sequences form groups of cards that are stapled together.\ For example, with $7$ cards initially in the order $4 med 1 med 2 med 3 med 7 med 5 med 6$, cards $1$, $2$ and $3$ will be stapled together, as will cards $5$ and $6$ (this gives us a group of $3$ cards, a group of $2$ cards, and $2$ isolated cards).
 + The cards are then "shuffled" by throwing them into the air (the stapled cards obviously remain together). The cards (or stapled card packs) are then picked up at random. We assume that all possible picks are equally likely, despite the fact that some cards are alone and others are grouped together.
 + Steps 1 and 2 are repeated until all the cards are sorted.
 
@@ -3741,14 +3740,14 @@ _(Proposed by David Draï. Project Euler 604)_
     columns: (auto,)*2,
     column-gutter: 10pt,
     [
-    A grid of six squares is drawn with black outline strokes.\
-    You want to highlight certain edges in red so that any vertex of the squares that make up the grid can be connected to any other vertex in a single way by following a red line.
+    A six-by-one checkerboard is drawn with black outlines.\
+    You want to highlight certain edges in red so that any vertex of the squares composing the checkerboard can be connected, in one and only one way, to any other vertex by following a red line.
 
     *1. How many different ways can the red lines be drawn?*
 
-    The drawing opposite shows the $15$ ways to color a two-by-two grid.
+    The drawing opposite shows the $15$ ways to color a two-by-one checkerboard.
 
-    *2. Same question with a two-by-two grid.*
+    *2. Same question with a two-by-two checkerboard.*
 
     The answer should be the product of the two results.
     ],
